@@ -1,0 +1,408 @@
+{
+  "achievements": {
+    "achievement_01": {
+      "id": "achievement_01",
+      "name": "Trophy Set1",
+      "tierGoals": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    "achievement_02": {
+      "id": "achievement_02",
+      "name": "Trophy Set2",
+      "tierGoals": [
+        4,
+        8,
+        12,
+        16
+      ]
+    },
+    "achievement_03": {
+      "id": "achievement_03",
+      "name": "Helping Hand",
+      "tierGoals": [
+        500,
+        2000,
+        10000,
+        30000,
+        100000
+      ]
+    },
+    "achievement_04": {
+      "id": "achievement_04",
+      "name": "Own Characters",
+      "tierGoals": [
+        5,
+        25,
+        75,
+        150,
+        300
+      ]
+    },
+    "achievement_05": {
+      "id": "achievement_05",
+      "name": "Complete Missions",
+      "tierGoals": [
+        7,
+        50,
+        180,
+        240
+      ]
+    },
+    "achievement_06": {
+      "id": "achievement_06",
+      "name": "Complete Daily In Row",
+      "tierGoals": [
+        5,
+        15,
+        30,
+        60,
+        90
+      ]
+    },
+    "achievement_07": {
+      "id": "achievement_07",
+      "name": "Board Rider",
+      "tierGoals": [
+        5,
+        25,
+        75,
+        150,
+        300
+      ]
+    },
+    "achievement_08": {
+      "id": "achievement_08",
+      "name": "Top Run Medal",
+      "tierGoals": [
+        3,
+        10,
+        40,
+        80,
+        100
+      ]
+    },
+    "achievement_09": {
+      "id": "achievement_09",
+      "name": "Pickup Powerups",
+      "tierGoals": [
+        100,
+        1250,
+        5000,
+        10000
+      ]
+    },
+    "achievement_10": {
+      "id": "achievement_10",
+      "name": "Own Outfits",
+      "tierGoals": [
+        5,
+        16,
+        32,
+        60
+      ]
+    },
+    "achievement_11": {
+      "id": "achievement_11",
+      "name": "Coin Cautious",
+      "tierGoals": [
+        50000,
+        250000,
+        500000,
+        1000000,
+        2000000
+      ]
+    },
+    "achievement_12": {
+      "id": "achievement_12",
+      "name": "Missions Single Run",
+      "tierGoals": [
+        2,
+        3,
+        6,
+        9
+      ]
+    },
+    "achievement_13": {
+      "id": "achievement_13",
+      "name": "Top Run Rank1",
+      "tierGoals": [
+        1,
+        3,
+        8,
+        24
+      ]
+    },
+    "achievement_14": {
+      "id": "achievement_14",
+      "name": "Sneakers Active",
+      "tierGoals": [
+        60,
+        180,
+        360,
+        600
+      ]
+    },
+    "achievement_16": {
+      "id": "achievement_16",
+      "name": "Pickup Keys",
+      "tierGoals": [
+        10,
+        35,
+        85,
+        185
+      ]
+    },
+    "achievement_17": {
+      "id": "achievement_17",
+      "name": "Open Mystery Boxes",
+      "tierGoals": [
+        20,
+        100,
+        500,
+        2500,
+        10000
+      ]
+    },
+    "achievement_18": {
+      "id": "achievement_18",
+      "name": "No Acrobatics",
+      "tierGoals": [
+        75000,
+        300000,
+        750000,
+        1500000,
+        3000000
+      ]
+    },
+    "achievement_19": {
+      "id": "achievement_19",
+      "name": "Wordys Complete",
+      "tierGoals": [
+        8,
+        24,
+        48,
+        68
+      ]
+    },
+    "achievement_20": {
+      "id": "achievement_20",
+      "name": "Wordys Complete Single Event",
+      "tierGoals": [
+        2,
+        6,
+        12,
+        18
+      ]
+    },
+    "achievement_21": {
+      "id": "achievement_21",
+      "name": "Lucky Duck",
+      "tierGoals": [
+        1,
+        2,
+        3,
+        5,
+        7
+      ]
+    },
+    "achievement_22": {
+      "id": "achievement_22",
+      "name": "Open Super Mystery Boxes",
+      "tierGoals": [
+        25,
+        150,
+        500,
+        1000
+      ]
+    },
+    "achievement_23": {
+      "id": "achievement_23",
+      "name": "Top Run Rank0",
+      "tierGoals": [
+        1,
+        5,
+        10,
+        15
+      ]
+    },
+    "achievement_24": {
+      "id": "achievement_24",
+      "name": "Straight Ahead",
+      "tierGoals": [
+        100000,
+        400000,
+        1500000,
+        3000000,
+        5000000
+      ]
+    },
+    "achievement_25": {
+      "id": "achievement_25",
+      "name": "Watch Ad For Keys",
+      "tierGoals": [
+        3,
+        17,
+        47,
+        97
+      ]
+    },
+    "achievement_26": {
+      "id": "achievement_26",
+      "name": "Daily Challenge Claim",
+      "tierGoals": [
+        50,
+        200,
+        500,
+        800
+      ]
+    },
+    "achievement_27": {
+      "id": "achievement_27",
+      "name": "Daily Challenge Complete",
+      "tierGoals": [
+        7,
+        21,
+        41,
+        101
+      ]
+    },
+    "achievement_28": {
+      "id": "achievement_28",
+      "name": "Top Run Champion",
+      "tierGoals": [
+        1,
+        5,
+        20,
+        60,
+        90
+      ]
+    },
+    "achievement_29": {
+      "id": "achievement_29",
+      "name": "World Tour",
+      "tierGoals": [
+        5,
+        10,
+        20,
+        50,
+        80
+      ]
+    },
+    "achievement_30": {
+      "id": "achievement_30",
+      "name": "Social Surfer",
+      "tierGoals": [
+        1,
+        10,
+        25,
+        50,
+        100
+      ]
+    },
+    "achievement_31": {
+      "id": "achievement_31",
+      "name": "Sugar Rush",
+      "tierGoals": [
+        5000,
+        25000,
+        200000,
+        500000,
+        1000000
+      ]
+    },
+    "achievement_32": {
+      "id": "achievement_32",
+      "name": "Race Against Clock",
+      "tierGoals": [
+        1,
+        2,
+        4,
+        7,
+        9
+      ]
+    },
+    "achievement_33": {
+      "id": "achievement_33",
+      "name": "Picture Perfect",
+      "tierGoals": [
+        10,
+        20,
+        40,
+        80,
+        120
+      ]
+    },
+    "achievement_34": {
+      "id": "achievement_34",
+      "name": "Demystified",
+      "tierGoals": [
+        25,
+        50,
+        75,
+        100,
+        200
+      ]
+    },
+    "achievement_35": {
+      "id": "achievement_35",
+      "name": "Massive Multiplier",
+      "tierGoals": [
+        15,
+        30,
+        60,
+        100,
+        160
+      ]
+    },
+    "achievement_36": {
+      "id": "achievement_36",
+      "name": "Brawl Besties",
+      "tierGoals": [
+        5
+      ]
+    },
+    "achievement_37": {
+      "id": "achievement_37",
+      "name": "Star League",
+      "tierGoals": [
+        3
+      ]
+    },
+    "achievement_38": {
+      "id": "achievement_38",
+      "name": "Super Runner",
+      "tierGoals": [
+        5
+      ]
+    },
+    "achievement_39": {
+      "id": "achievement_39",
+      "name": "Infectiously Popular",
+      "tierGoals": [
+        1
+      ]
+    },
+    "achievement_40": {
+      "id": "achievement_40",
+      "name": "Among Us",
+      "tierGoals": [
+        6
+      ]
+    },
+    "achievement_41": {
+      "id": "achievement_41",
+      "name": "You Got Framed",
+      "tierGoals": [
+        2,
+        5,
+        12,
+        25,
+        50
+      ]
+    }
+  }
+}

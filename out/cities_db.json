@@ -1,0 +1,360 @@
+{
+  "cities": {
+    "alohahawaii": {
+      "id": "alohahawaii",
+      "name": "Alohahawaii"
+    },
+    "amsterdam": {
+      "id": "amsterdam",
+      "name": "Amsterdam"
+    },
+    "arabia": {
+      "id": "arabia",
+      "name": "Arabia"
+    },
+    "australia": {
+      "id": "australia",
+      "name": "Australia"
+    },
+    "bali": {
+      "id": "bali",
+      "name": "Bali"
+    },
+    "bangkok": {
+      "id": "bangkok",
+      "name": "Bangkok"
+    },
+    "barcelona": {
+      "id": "barcelona",
+      "name": "Barcelona"
+    },
+    "beijing": {
+      "id": "beijing",
+      "name": "Beijing"
+    },
+    "berlin": {
+      "id": "berlin",
+      "name": "Berlin"
+    },
+    "brawlstars": {
+      "id": "brawlstars",
+      "name": "Brawlstars"
+    },
+    "brawlstars_race": {
+      "id": "brawlstars_race",
+      "name": "Brawlstars Race"
+    },
+    "buenosaires": {
+      "id": "buenosaires",
+      "name": "Buenosaires"
+    },
+    "cairo": {
+      "id": "cairo",
+      "name": "Cairo"
+    },
+    "cambridgehalloween": {
+      "id": "cambridgehalloween",
+      "name": "Cambridgehalloween"
+    },
+    "changan": {
+      "id": "changan",
+      "name": "Changan"
+    },
+    "chicago": {
+      "id": "chicago",
+      "name": "Chicago"
+    },
+    "copenhagen": {
+      "id": "copenhagen",
+      "name": "Copenhagen"
+    },
+    "copenhagensuperrunner": {
+      "id": "copenhagensuperrunner",
+      "name": "Copenhagensuperrunner"
+    },
+    "copenhagenviking": {
+      "id": "copenhagenviking",
+      "name": "Copenhagenviking"
+    },
+    "crossyroads": {
+      "id": "crossyroads",
+      "name": "Crossyroads"
+    },
+    "edinburgh": {
+      "id": "edinburgh",
+      "name": "Edinburgh"
+    },
+    "fantasyfest": {
+      "id": "fantasyfest",
+      "name": "Fantasyfest"
+    },
+    "greece": {
+      "id": "greece",
+      "name": "Greece"
+    },
+    "greecevalentines": {
+      "id": "greecevalentines",
+      "name": "Greecevalentines"
+    },
+    "hauntedhood": {
+      "id": "hauntedhood",
+      "name": "Hauntedhood"
+    },
+    "hauntedhood_trick_or_treat": {
+      "id": "hauntedhood_trick_or_treat",
+      "name": "Hauntedhood Trick Or Treat"
+    },
+    "hawaii": {
+      "id": "hawaii",
+      "name": "Hawaii"
+    },
+    "hollywood": {
+      "id": "hollywood",
+      "name": "Hollywood"
+    },
+    "hongkong": {
+      "id": "hongkong",
+      "name": "Hongkong"
+    },
+    "houston": {
+      "id": "houston",
+      "name": "Houston"
+    },
+    "iceland": {
+      "id": "iceland",
+      "name": "Iceland"
+    },
+    "ireland": {
+      "id": "ireland",
+      "name": "Ireland"
+    },
+    "irelandspring": {
+      "id": "irelandspring",
+      "name": "Irelandspring"
+    },
+    "istanbul": {
+      "id": "istanbul",
+      "name": "Istanbul"
+    },
+    "journeytotheeast": {
+      "id": "journeytotheeast",
+      "name": "Journeytotheeast"
+    },
+    "lasvegas": {
+      "id": "lasvegas",
+      "name": "Lasvegas"
+    },
+    "littlerock": {
+      "id": "littlerock",
+      "name": "Littlerock"
+    },
+    "london": {
+      "id": "london",
+      "name": "London"
+    },
+    "london2026": {
+      "id": "london2026",
+      "name": "London2026"
+    },
+    "lunarnewyear": {
+      "id": "lunarnewyear",
+      "name": "Lunarnewyear"
+    },
+    "luoyang": {
+      "id": "luoyang",
+      "name": "Luoyang"
+    },
+    "luoyanglny": {
+      "id": "luoyanglny",
+      "name": "Luoyanglny"
+    },
+    "marrakesh": {
+      "id": "marrakesh",
+      "name": "Marrakesh"
+    },
+    "mexicocity": {
+      "id": "mexicocity",
+      "name": "Mexicocity"
+    },
+    "miami": {
+      "id": "miami",
+      "name": "Miami"
+    },
+    "miaminfl": {
+      "id": "miaminfl",
+      "name": "Miaminfl"
+    },
+    "monaco": {
+      "id": "monaco",
+      "name": "Monaco"
+    },
+    "moscow": {
+      "id": "moscow",
+      "name": "Moscow"
+    },
+    "mumbai": {
+      "id": "mumbai",
+      "name": "Mumbai"
+    },
+    "mumbaiholi": {
+      "id": "mumbaiholi",
+      "name": "Mumbaiholi"
+    },
+    "neworleans": {
+      "id": "neworleans",
+      "name": "Neworleans"
+    },
+    "newyork": {
+      "id": "newyork",
+      "name": "Newyork"
+    },
+    "newyorkplay2plant": {
+      "id": "newyorkplay2plant",
+      "name": "Newyorkplay2plant"
+    },
+    "newyorkthanksgiving": {
+      "id": "newyorkthanksgiving",
+      "name": "Newyorkthanksgiving"
+    },
+    "osaka": {
+      "id": "osaka",
+      "name": "Osaka"
+    },
+    "oxford": {
+      "id": "oxford",
+      "name": "Oxford"
+    },
+    "oxfordeaster": {
+      "id": "oxfordeaster",
+      "name": "Oxfordeaster"
+    },
+    "paris": {
+      "id": "paris",
+      "name": "Paris"
+    },
+    "parissummergames": {
+      "id": "parissummergames",
+      "name": "Parissummergames"
+    },
+    "peru": {
+      "id": "peru",
+      "name": "Peru"
+    },
+    "rio": {
+      "id": "rio",
+      "name": "Rio"
+    },
+    "riocarnival": {
+      "id": "riocarnival",
+      "name": "Riocarnival"
+    },
+    "rome": {
+      "id": "rome",
+      "name": "Rome"
+    },
+    "sanfrancisco": {
+      "id": "sanfrancisco",
+      "name": "Sanfrancisco"
+    },
+    "sanfrancisco_challenge": {
+      "id": "sanfrancisco_challenge",
+      "name": "Sanfrancisco Challenge"
+    },
+    "seattle": {
+      "id": "seattle",
+      "name": "Seattle"
+    },
+    "seoul": {
+      "id": "seoul",
+      "name": "Seoul"
+    },
+    "shenzhen": {
+      "id": "shenzhen",
+      "name": "Shenzhen"
+    },
+    "shenzhenshowdown": {
+      "id": "shenzhenshowdown",
+      "name": "Shenzhenshowdown"
+    },
+    "spacestation": {
+      "id": "spacestation",
+      "name": "Spacestation"
+    },
+    "stpetersburg": {
+      "id": "stpetersburg",
+      "name": "Stpetersburg"
+    },
+    "subwaycity": {
+      "id": "subwaycity",
+      "name": "Subwaycity"
+    },
+    "subwaycityfloorislava": {
+      "id": "subwaycityfloorislava",
+      "name": "Subwaycityfloorislava"
+    },
+    "subwaycityplantinvasion": {
+      "id": "subwaycityplantinvasion",
+      "name": "Subwaycityplantinvasion"
+    },
+    "subwaycityxmas": {
+      "id": "subwaycityxmas",
+      "name": "Subwaycityxmas"
+    },
+    "subwayclassic": {
+      "id": "subwayclassic",
+      "name": "Subwayclassic"
+    },
+    "subwayclassic_8bit": {
+      "id": "subwayclassic_8bit",
+      "name": "Subwayclassic 8bit"
+    },
+    "subwaypvp": {
+      "id": "subwaypvp",
+      "name": "Subwaypvp"
+    },
+    "sydney": {
+      "id": "sydney",
+      "name": "Sydney"
+    },
+    "thenorthpole": {
+      "id": "thenorthpole",
+      "name": "Thenorthpole"
+    },
+    "tokyo": {
+      "id": "tokyo",
+      "name": "Tokyo"
+    },
+    "underwaterworld": {
+      "id": "underwaterworld",
+      "name": "Underwaterworld"
+    },
+    "vancouverautumn": {
+      "id": "vancouverautumn",
+      "name": "Vancouverautumn"
+    },
+    "vancouverspring": {
+      "id": "vancouverspring",
+      "name": "Vancouverspring"
+    },
+    "venicebeach": {
+      "id": "venicebeach",
+      "name": "Venicebeach"
+    },
+    "vienna": {
+      "id": "vienna",
+      "name": "Vienna"
+    },
+    "washington": {
+      "id": "washington",
+      "name": "Washington"
+    },
+    "winterxtreme": {
+      "id": "winterxtreme",
+      "name": "Winterxtreme"
+    },
+    "zurich": {
+      "id": "zurich",
+      "name": "Zurich"
+    }
+  }
+}

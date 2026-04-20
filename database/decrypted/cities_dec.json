@@ -1,0 +1,513 @@
+{
+  "cities": {
+    "alohahawaii": {
+      "addressablesKey": "alohahawaii_config",
+      "id": "alohahawaii",
+      "musicKey": "music_alohahawaii",
+      "name": "cities.alohahawaii.name"
+    },
+    "amsterdam": {
+      "addressablesKey": "amsterdam_config",
+      "id": "amsterdam",
+      "musicKey": "music_generic"
+    },
+    "arabia": {
+      "addressablesKey": "arabia_config",
+      "id": "arabia",
+      "musicKey": "music_generic"
+    },
+    "australia": {
+      "addressablesKey": "australia_config",
+      "id": "australia",
+      "musicKey": "music_australia",
+      "name": "cities.sydney.name"
+    },
+    "bali": {
+      "addressablesKey": "bali_config",
+      "id": "bali",
+      "musicKey": "music_bali"
+    },
+    "bangkok": {
+      "addressablesKey": "bangkok_config",
+      "id": "bangkok",
+      "musicKey": "music_generic"
+    },
+    "barcelona": {
+      "addressablesKey": "barcelona_config",
+      "id": "barcelona",
+      "musicKey": "music_barcelona_2025",
+      "name": "cities.barcelona.name"
+    },
+    "beijing": {
+      "addressablesKey": "beijing_config",
+      "id": "beijing",
+      "musicKey": "music_generic"
+    },
+    "berlin": {
+      "addressablesKey": "berlin_config",
+      "id": "berlin",
+      "musicKey": "music_berlin"
+    },
+    "brawlstars": {
+      "addressablesKey": "brawlstars_config",
+      "id": "brawlstars",
+      "musicKey": "music_bs"
+    },
+    "brawlstars_race": {
+      "addressablesKey": "brawlstars_config",
+      "id": "brawlstars_race",
+      "musicKey": "music_bs_race"
+    },
+    "buenosaires": {
+      "addressablesKey": "buenosaires_config",
+      "id": "buenosaires",
+      "musicKey": "music_buenos_aires"
+    },
+    "cairo": {
+      "addressablesKey": "cairo_config",
+      "id": "cairo",
+      "musicKey": "music_cairo_world_cup"
+    },
+    "cambridgehalloween": {
+      "addressablesKey": "cambridgehalloween_config",
+      "id": "cambridgehalloween",
+      "musicKey": "music_cambridge_halloween"
+    },
+    "changan": {
+      "addressablesKey": "changan_config",
+      "id": "changan",
+      "musicKey": "music_changan"
+    },
+    "chicago": {
+      "addressablesKey": "chicago_config",
+      "id": "chicago",
+      "musicKey": "music_chicago"
+    },
+    "copenhagen": {
+      "addressablesKey": "copenhagen_config",
+      "id": "copenhagen",
+      "musicKey": "music_copenhagen_world_tour",
+      "name": "cities.copenhagen.name"
+    },
+    "copenhagensuperrunner": {
+      "addressablesKey": "copenhagensuperrunner_config",
+      "id": "copenhagensuperrunner",
+      "musicKey": "music_copenhagen_super_runner"
+    },
+    "copenhagenviking": {
+      "addressablesKey": "copenhagenviking_config",
+      "id": "copenhagenviking",
+      "musicKey": "music_copenhagen_viking",
+      "name": "cities.copenhagen.name"
+    },
+    "crossyroads": {
+      "addressablesKey": "crossyroads_config",
+      "id": "crossyroads",
+      "musicKey": "music_crossyroad",
+      "name": "cities.crossyroad.name"
+    },
+    "edinburgh": {
+      "addressablesKey": "edinburgh_config",
+      "id": "edinburgh",
+      "musicKey": "music_edinburgh",
+      "name": "cities.easteredinburgh.name"
+    },
+    "fantasyfest": {
+      "addressablesKey": "fantasyfest_config",
+      "id": "fantasyfest",
+      "musicKey": "music_fantasyfest"
+    },
+    "greece": {
+      "addressablesKey": "greece_config",
+      "id": "greece",
+      "musicKey": "music_greece",
+      "name": "cities.greece.name"
+    },
+    "greecevalentines": {
+      "addressablesKey": "greecevalentines_config",
+      "id": "greecevalentines",
+      "musicKey": "music_greecevalentines",
+      "name": "cities.greecevalentines.name"
+    },
+    "hauntedhood": {
+      "addressablesKey": "hauntedhood_config",
+      "id": "hauntedhood",
+      "musicKey": "music_hauntedhood",
+      "name": "cities.hauntedhood.name"
+    },
+    "hauntedhood_trick_or_treat": {
+      "addressablesKey": "hauntedhood_config",
+      "id": "hauntedhood_trick_or_treat",
+      "musicKey": "music_hauntedhood_trick_or_treat",
+      "name": "cities.hauntedhood.name"
+    },
+    "hawaii": {
+      "addressablesKey": "hawaii_config",
+      "id": "hawaii",
+      "musicKey": "music_hawaii"
+    },
+    "hollywood": {
+      "addressablesKey": "hollywood_config",
+      "id": "hollywood",
+      "musicKey": "music_hollywood",
+      "name": "cities.hollywood.name"
+    },
+    "hongkong": {
+      "addressablesKey": "hongkong_config",
+      "id": "hongkong",
+      "musicKey": "music_hong_kong"
+    },
+    "houston": {
+      "addressablesKey": "houston_config",
+      "id": "houston",
+      "musicKey": "music_houston"
+    },
+    "iceland": {
+      "addressablesKey": "iceland_config",
+      "id": "iceland",
+      "musicKey": "music_iceland_2024",
+      "name": "cities.iceland.name"
+    },
+    "ireland": {
+      "addressablesKey": "ireland_config",
+      "id": "ireland",
+      "musicKey": "music_ireland",
+      "name": "cities.ireland.name"
+    },
+    "irelandspring": {
+      "addressablesKey": "irelandspring_config",
+      "id": "irelandspring",
+      "musicKey": "music_ireland",
+      "name": "cities.irelandspring.name"
+    },
+    "istanbul": {
+      "addressablesKey": "istanbul_config",
+      "id": "istanbul",
+      "musicKey": "music_istanbul",
+      "name": "cities.istanbul.name"
+    },
+    "journeytotheeast": {
+      "addressablesKey": "journeytotheeast_config",
+      "id": "journeytotheeast",
+      "musicKey": "music_journey_to_the_east"
+    },
+    "lasvegas": {
+      "addressablesKey": "lasvegas_config",
+      "id": "lasvegas",
+      "musicKey": "music_lasvegas",
+      "name": "cities.lasvegas.name"
+    },
+    "littlerock": {
+      "addressablesKey": "littlerock_config",
+      "id": "littlerock",
+      "musicKey": "music_generic"
+    },
+    "london": {
+      "addressablesKey": "london_config",
+      "id": "london",
+      "musicKey": "music_london",
+      "name": "cities.london.name"
+    },
+    "london2026": {
+      "addressablesKey": "london2026_config",
+      "id": "london2026",
+      "musicKey": "music_london2026",
+      "name": "cities.london2026.name"
+    },
+    "lunarnewyear": {
+      "addressablesKey": "lunarnewyear_config",
+      "id": "lunarnewyear",
+      "musicKey": "music_lunar_new_year"
+    },
+    "luoyang": {
+      "addressablesKey": "luoyang_config",
+      "id": "luoyang",
+      "musicKey": "music_luoyang"
+    },
+    "luoyanglny": {
+      "addressablesKey": "luoyanglny_config",
+      "id": "luoyanglny",
+      "musicKey": "music_luoyanglny",
+      "name": "cities.luoyanglny.name"
+    },
+    "marrakesh": {
+      "addressablesKey": "marrakesh_config",
+      "id": "marrakesh",
+      "musicKey": "music_marrakesh",
+      "name": "cities.marrakesh.name"
+    },
+    "mexicocity": {
+      "addressablesKey": "mexicocity_config",
+      "id": "mexicocity",
+      "musicKey": "music_mexico_halloween",
+      "name": "cities.mexicohalloween.name"
+    },
+    "miami": {
+      "addressablesKey": "miami_config",
+      "id": "miami",
+      "musicKey": "music_miami"
+    },
+    "miaminfl": {
+      "addressablesKey": "miaminfl_config",
+      "id": "miaminfl",
+      "musicKey": "music_miami",
+      "name": "cities.miami.name"
+    },
+    "monaco": {
+      "addressablesKey": "monaco_config",
+      "id": "monaco",
+      "musicKey": "music_monaco"
+    },
+    "moscow": {
+      "addressablesKey": "moscow_config",
+      "id": "moscow",
+      "musicKey": "music_generic"
+    },
+    "mumbai": {
+      "addressablesKey": "mumbai_config",
+      "id": "mumbai",
+      "musicKey": "music_mumbai"
+    },
+    "mumbaiholi": {
+      "addressablesKey": "mumbaiholi_config",
+      "id": "mumbaiholi",
+      "musicKey": "music_mumbaiholi",
+      "name": "cities.mumbaiholi.name"
+    },
+    "neworleans": {
+      "addressablesKey": "neworleans_config",
+      "id": "neworleans",
+      "musicKey": "music_neworleans",
+      "name": "cities.neworleans.name"
+    },
+    "newyork": {
+      "addressablesKey": "newyork_config",
+      "id": "newyork",
+      "musicKey": "music_new_york"
+    },
+    "newyorkplay2plant": {
+      "addressablesKey": "newyorkplay2plant_config",
+      "id": "newyorkplay2plant",
+      "musicKey": "music_new_york",
+      "name": "cities.newyork.name"
+    },
+    "newyorkthanksgiving": {
+      "addressablesKey": "newyorkthanksgiving_config",
+      "id": "newyorkthanksgiving",
+      "musicKey": "music_newyorkthanksgiving",
+      "name": "cities.newyorkthanksgiving.name"
+    },
+    "osaka": {
+      "addressablesKey": "osaka_config",
+      "id": "osaka",
+      "musicKey": "music_osaka",
+      "name": "cities.osaka.name"
+    },
+    "oxford": {
+      "addressablesKey": "oxford_config",
+      "id": "oxford",
+      "musicKey": "music_oxford",
+      "name": "cities.oxford.name"
+    },
+    "oxfordeaster": {
+      "addressablesKey": "oxfordeaster_config",
+      "id": "oxfordeaster",
+      "musicKey": "music_oxford"
+    },
+    "paris": {
+      "addressablesKey": "paris_config",
+      "id": "paris",
+      "musicKey": "music_paris"
+    },
+    "parissummergames": {
+      "addressablesKey": "parissummergames_config",
+      "id": "parissummergames",
+      "musicKey": "music_parissummergames",
+      "name": "cities.paris.name"
+    },
+    "peru": {
+      "addressablesKey": "peru_config",
+      "id": "peru",
+      "musicKey": "music_peru"
+    },
+    "rio": {
+      "addressablesKey": "rio_config",
+      "id": "rio",
+      "musicKey": "music_rio"
+    },
+    "riocarnival": {
+      "addressablesKey": "riocarnival_config",
+      "id": "riocarnival",
+      "musicKey": "music_riocarnival",
+      "name": "cities.riocarnival.name"
+    },
+    "rome": {
+      "addressablesKey": "rome_config",
+      "id": "rome",
+      "musicKey": "music_rome",
+      "name": "cities.rome.name"
+    },
+    "sakuratokyo": {
+      "addressablesKey": "sakuratokyo_config",
+      "id": "sakuratokyo",
+      "musicKey": "music_sakuratokyo",
+      "name": "cities.sakuratokyo.name"
+    },
+    "sanfrancisco": {
+      "addressablesKey": "sanfrancisco_config",
+      "id": "sanfrancisco",
+      "musicKey": "music_sanfrancisco",
+      "name": "cities.sanfrancisco.name"
+    },
+    "sanfrancisco_challenge": {
+      "addressablesKey": "sanfrancisco_config",
+      "id": "sanfrancisco_challenge",
+      "musicKey": "music_surf_as_yourself",
+      "name": "cities.sanfrancisco.name"
+    },
+    "seattle": {
+      "addressablesKey": "seattle_config",
+      "id": "seattle",
+      "musicKey": "music_seattle"
+    },
+    "seoul": {
+      "addressablesKey": "seoul_config",
+      "id": "seoul",
+      "musicKey": "music_seoul",
+      "name": "cities.seoul.name"
+    },
+    "shenzhen": {
+      "addressablesKey": "shenzhen_config",
+      "id": "shenzhen",
+      "musicKey": "music_shenzhen"
+    },
+    "shenzhenshowdown": {
+      "addressablesKey": "shenzhenshowdown_config",
+      "id": "shenzhenshowdown",
+      "musicKey": "music_shenzhenshowdown",
+      "name": "cities.shenzhenshowdown.name"
+    },
+    "spacestation": {
+      "addressablesKey": "spacestation_config",
+      "id": "spacestation",
+      "musicKey": "music_space_station"
+    },
+    "stpetersburg": {
+      "addressablesKey": "stpetersburg_config",
+      "id": "stpetersburg",
+      "musicKey": "music_st_petersburg"
+    },
+    "subwaycity": {
+      "addressablesKey": "subwaycity_config",
+      "id": "subwaycity",
+      "musicKey": "music_copenhagen_rivals_theme"
+    },
+    "subwaycityfloorislava": {
+      "addressablesKey": "subwaycityfloorislava_config",
+      "id": "subwaycityfloorislava",
+      "musicKey": "music_subway_city_floor_is_lava"
+    },
+    "subwaycityplantinvasion": {
+      "addressablesKey": "subwaycityplantinvasion_config",
+      "id": "subwaycityplantinvasion",
+      "musicKey": "music_subway_city_plantinvasion"
+    },
+    "subwaycityxmas": {
+      "addressablesKey": "subwaycityxmas_config",
+      "id": "subwaycityxmas",
+      "musicKey": "music_subway_city_xmas"
+    },
+    "subwayclassic": {
+      "addressablesKey": "subwayclassic_config",
+      "id": "subwayclassic",
+      "musicKey": "music_subwayclassic",
+      "name": "cities.subwayclassic.name"
+    },
+    "subwayclassic_8bit": {
+      "addressablesKey": "subwayclassic_config",
+      "id": "subwayclassic_8bit",
+      "musicKey": "music_subwayclassic",
+      "name": "cities.subwayclassic.name"
+    },
+    "subwaypvp": {
+      "addressablesKey": "subwaypvp_config",
+      "id": "subwaypvp",
+      "musicKey": "music_subway_pvp"
+    },
+    "sydney": {
+      "addressablesKey": "sydney_config",
+      "id": "sydney",
+      "musicKey": "music_generic"
+    },
+    "thenorthpole": {
+      "addressablesKey": "thenorthpole_config",
+      "id": "thenorthpole",
+      "musicKey": "music_music_thenorthpole_2025",
+      "name": "cities.thenorthpole.name"
+    },
+    "tokyo": {
+      "addressablesKey": "tokyo_config",
+      "id": "tokyo",
+      "musicKey": "music_tokyo"
+    },
+    "underwaterworld": {
+      "addressablesKey": "underwaterworld_config",
+      "id": "underwaterworld",
+      "musicKey": "music_underwaterworld"
+    },
+    "vancouverautumn": {
+      "addressablesKey": "vancouverautumn_config",
+      "id": "vancouverautumn",
+      "musicKey": "music_vancouver_autumn",
+      "name": "cities.vancouver.name"
+    },
+    "vancouverspring": {
+      "addressablesKey": "vancouverspring_config",
+      "id": "vancouverspring",
+      "musicKey": "music_vancouver_spring",
+      "name": "cities.vancouver.name"
+    },
+    "venicebeach": {
+      "addressablesKey": "venicebeach_config",
+      "id": "venicebeach",
+      "musicKey": "music_venice_beach"
+    },
+    "vienna": {
+      "addressablesKey": "vienna_config",
+      "id": "vienna",
+      "musicKey": "music_vienna",
+      "name": "cities.vienna.name"
+    },
+    "washington": {
+      "addressablesKey": "washington_config",
+      "id": "washington",
+      "musicKey": "music_washington",
+      "name": "cities.washingtondc.name"
+    },
+    "winterxtreme": {
+      "addressablesKey": "winterxtreme_config",
+      "id": "winterxtreme",
+      "musicKey": "music_winterxtreme",
+      "name": "cities.winterxtreme.name"
+    },
+    "zurich": {
+      "addressablesKey": "zurich_config",
+      "id": "zurich",
+      "musicKey": "music_generic"
+    }
+  },
+  "featuredCityData": [
+    {
+      "featuredCityID": "sakuratokyo",
+      "timeSlot": "season_S117_forever"
+    },
+    {
+      "featuredCityID": "rome",
+      "timeSlot": "season_S115"
+    },
+    {
+      "featuredCityID": "irelandspring",
+      "timeSlot": "season_S116"
+    }
+  ]
+}

@@ -1,0 +1,5595 @@
+{
+  "$schema": "../schema/boards_schema.json",
+  "boards": {
+    "4thOfJuly": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "4thOfJuly.default",
+        "unlockProduct": "4thOfJuly_default"
+      },
+      "id": "4thOfJuly",
+      "priority": 1,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFF00",
+            "iconForeground": "#FF7B00FF",
+            "overrideIcon": "icon_upgrade_spark_trail",
+            "powerType": "Vanity",
+            "referenceId": "4thOfJuly.trail",
+            "unlockProduct": "4thOfJuly_trail"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "4thOfJuly.highSpeed",
+            "unlockProduct": "4thOfJuly_highSpeed"
+          }
+        }
+      ]
+    },
+    "aero": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "aero.default",
+        "unlockProduct": "aero_default"
+      },
+      "id": "aero",
+      "priority": 2,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "Speed",
+            "referenceId": "aero.highSpeed",
+            "unlockProduct": "aero_highSpeed"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "aero.glider",
+            "unlockProduct": "aero_glider"
+          }
+        }
+      ]
+    },
+    "aeroFish": {
+      "defaultVariation": {
+        "description": "boards.common.mumbai",
+        "powerType": "None",
+        "referenceId": "aeroFish.default",
+        "unlockProduct": "aeroFish_default"
+      },
+      "id": "aeroFish",
+      "priority": 157,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "aeroFish.highSpeed",
+            "unlockProduct": "aeroFish_highSpeed"
+          }
+        }
+      ]
+    },
+    "alarmon": {
+      "defaultVariation": {
+        "description": "boards.common.subwayclassic",
+        "powerType": "SuperJump",
+        "referenceId": "alarmon.default",
+        "unlockProduct": "alarmon_default"
+      },
+      "id": "alarmon",
+      "priority": 211,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "alarmon.highSpeed",
+            "unlockProduct": "alarmon_highSpeed"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "alarmon.glider",
+            "unlockProduct": "alarmon_glider"
+          }
+        }
+      ]
+    },
+    "arara": {
+      "defaultVariation": {
+        "description": "boards.common.rio",
+        "powerType": "DoubleJump",
+        "referenceId": "arara.default",
+        "unlockProduct": "arara_default"
+      },
+      "id": "arara",
+      "priority": 256,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "arara.lowrider",
+            "unlockProduct": "arara_lowrider"
+          }
+        }
+      ]
+    },
+    "arenaRider": {
+      "defaultVariation": {
+        "description": "boards.common.rome",
+        "powerType": "None",
+        "referenceId": "arenaRider.default",
+        "unlockProduct": "arenaRider_default"
+      },
+      "id": "arenaRider",
+      "priority": 314,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "arenaRider.superJump",
+            "unlockProduct": "arenaRider_superJump"
+          }
+        }
+      ]
+    },
+    "arrow": {
+      "defaultVariation": {
+        "description": "boards.common.paris",
+        "powerType": "SmoothDrift",
+        "referenceId": "arrow.default",
+        "unlockProduct": "arrow_default"
+      },
+      "id": "arrow",
+      "priority": 222,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "arrow.highSpeed",
+            "unlockProduct": "arrow_highSpeed"
+          }
+        }
+      ]
+    },
+    "astronave": {
+      "defaultVariation": {
+        "description": "boards.common.barcelona",
+        "powerType": "None",
+        "referenceId": "astronave.default",
+        "unlockProduct": "astronave_default"
+      },
+      "id": "astronave",
+      "priority": 146,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "astrotune": {
+      "defaultVariation": {
+        "description": "boards.common.lasvegas",
+        "powerType": "None",
+        "referenceId": "astrotune.default",
+        "unlockProduct": "astrotune_default"
+      },
+      "id": "astrotune",
+      "priority": 199,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "astrotune.doubleJump",
+            "unlockProduct": "astrotune_doubleJump"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "astrotune.highSpeed",
+            "unlockProduct": "astrotune_highSpeed"
+          }
+        }
+      ]
+    },
+    "atomicTile": {
+      "defaultVariation": {
+        "description": "boards.common.cairo",
+        "powerType": "None",
+        "referenceId": "atomicTile.default",
+        "unlockProduct": "atomicTile_default"
+      },
+      "id": "atomicTile",
+      "priority": 144,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "backtothefuture": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "backtothefuture.default",
+        "unlockProduct": "backtothefuture_default"
+      },
+      "id": "backtothefuture",
+      "priority": 179,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "badabomb": {
+      "defaultVariation": {
+        "description": "boards.common.shenzhen",
+        "powerType": "None",
+        "referenceId": "badabomb.default",
+        "unlockProduct": "badabomb_default"
+      },
+      "id": "badabomb",
+      "priority": 193,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "bamboo": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "bamboo.default",
+        "unlockProduct": "bamboo_default"
+      },
+      "id": "bamboo",
+      "priority": 3,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "banana": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "banana.default",
+        "unlockProduct": "banana_default"
+      },
+      "id": "banana",
+      "priority": 4,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "bassBlaster": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "bassBlaster.default",
+        "unlockProduct": "bassBlaster_default"
+      },
+      "id": "bassBlaster",
+      "priority": 5,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFFFF",
+            "iconForeground": "#2DF4FFFF",
+            "overrideIcon": "icon_upgrade_sound_trail",
+            "powerType": "Vanity",
+            "referenceId": "bassBlaster.trail",
+            "unlockProduct": "bassBlaster_trail"
+          }
+        },
+        {
+          "id": "jumper",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "bassBlaster.jumper",
+            "unlockProduct": "bassBlaster_jumper"
+          }
+        }
+      ]
+    },
+    "beach": {
+      "defaultVariation": {
+        "description": "boards.common.mumbai",
+        "powerType": "None",
+        "referenceId": "beach.default",
+        "unlockProduct": "beach_default"
+      },
+      "id": "beach",
+      "priority": 6,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "beachPop": {
+      "defaultVariation": {
+        "description": "boards.common.venicebeach",
+        "powerType": "None",
+        "referenceId": "beachPop.default",
+        "unlockProduct": "beachPop_default"
+      },
+      "id": "beachPop",
+      "priority": 142,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "beelzebook": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "beelzebook.default",
+        "unlockProduct": "beelzebook_default"
+      },
+      "id": "beelzebook",
+      "priority": 113,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "bengal": {
+      "defaultVariation": {
+        "description": "boards.common.mumbai",
+        "powerType": "None",
+        "referenceId": "bengal.default",
+        "unlockProduct": "bengal_default"
+      },
+      "id": "bengal",
+      "priority": 7,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "betty": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "betty.default",
+        "unlockProduct": "betty_default"
+      },
+      "id": "betty",
+      "priority": 8,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "biasBoom": {
+      "defaultVariation": {
+        "description": "boards.common.seoul",
+        "powerType": "None",
+        "referenceId": "biasBoom.default",
+        "unlockProduct": "biasBoom_default"
+      },
+      "id": "biasBoom",
+      "priority": 295,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "biasBoom.superJump",
+            "unlockProduct": "biasBoom_superJump"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "biasBoom.highSpeed",
+            "unlockProduct": "biasBoom_highSpeed"
+          }
+        }
+      ]
+    },
+    "bigBlue": {
+      "defaultVariation": {
+        "description": "boards.common.iceland",
+        "powerType": "None",
+        "referenceId": "bigBlue.default",
+        "unlockProduct": "bigBlue_default"
+      },
+      "id": "bigBlue",
+      "priority": 9,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "bigBoss": {
+      "defaultVariation": {
+        "description": "boards.common.fantasyfest",
+        "powerType": "None",
+        "referenceId": "bigBoss.default",
+        "unlockProduct": "bigBoss_default"
+      },
+      "id": "bigBoss",
+      "priority": 173,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "bigBoss.highSpeed",
+            "unlockProduct": "bigBoss_highSpeed"
+          }
+        }
+      ]
+    },
+    "bigKahuna": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "bigKahuna.default",
+        "unlockProduct": "bigKahuna_default"
+      },
+      "id": "bigKahuna",
+      "priority": 10,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "bigKahuna.glider",
+            "unlockProduct": "bigKahuna_glider"
+          }
+        },
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "bigKahuna.lowrider",
+            "unlockProduct": "bigKahuna_lowrider"
+          }
+        }
+      ]
+    },
+    "birdie": {
+      "defaultVariation": {
+        "description": "boards.common.rio",
+        "powerType": "None",
+        "referenceId": "birdie.default",
+        "unlockProduct": "birdie_default"
+      },
+      "id": "birdie",
+      "priority": 11,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "birthday": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "None",
+        "referenceId": "birthday.default",
+        "unlockProduct": "birthday_default"
+      },
+      "id": "birthday",
+      "priority": 12,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "birthday2021": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "None",
+        "referenceId": "birthday2021.default",
+        "unlockProduct": "birthday2021_default"
+      },
+      "id": "birthday2021",
+      "priority": 134,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "birthday2022": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "None",
+        "referenceId": "birthday2022.default",
+        "unlockProduct": "birthday2022_default"
+      },
+      "id": "birthday2022",
+      "priority": 151,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "birthday2023": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "None",
+        "referenceId": "birthday2023.default",
+        "unlockProduct": "birthday2023_default"
+      },
+      "id": "birthday2023",
+      "priority": 171,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "birthday2024": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "None",
+        "referenceId": "birthday2024.default",
+        "unlockProduct": "birthday2024_default"
+      },
+      "id": "birthday2024",
+      "priority": 214,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "birthday2025": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "None",
+        "referenceId": "birthday2025.default",
+        "unlockProduct": "birthday2025_default"
+      },
+      "id": "birthday2025",
+      "priority": 271,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "bloomster": {
+      "defaultVariation": {
+        "description": "boards.common.edinburgh",
+        "powerType": "None",
+        "referenceId": "bloomster.default",
+        "unlockProduct": "bloomster_default"
+      },
+      "id": "bloomster",
+      "priority": 261,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "bloomster.highSpeed",
+            "unlockProduct": "bloomster_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "bloomster.superJump",
+            "unlockProduct": "bloomster_superJump"
+          }
+        }
+      ]
+    },
+    "blueriff": {
+      "defaultVariation": {
+        "description": "boards.common.mumbai",
+        "powerType": "None",
+        "referenceId": "blueriff.default",
+        "unlockProduct": "blueriff_default"
+      },
+      "id": "blueriff",
+      "priority": 260,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "boombastic": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "SmoothDrift",
+        "referenceId": "boombastic.default",
+        "unlockProduct": "boombastic_default"
+      },
+      "id": "boombastic",
+      "priority": 153,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "bouncer": {
+      "defaultVariation": {
+        "powerType": "SuperJumpWithSneakers",
+        "referenceId": "bouncer.default",
+        "unlockProduct": "bouncer_default"
+      },
+      "id": "bouncer",
+      "priority": 13,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "brainstormer": {
+      "defaultVariation": {
+        "description": "boards.common.oxford",
+        "powerType": "None",
+        "referenceId": "brainstormer.default",
+        "unlockProduct": "brainstormer_default"
+      },
+      "id": "brainstormer",
+      "priority": 281,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "brainstormer.superJump",
+            "unlockProduct": "brainstormer_superJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "brainstormer.glider",
+            "unlockProduct": "brainstormer_glider"
+          }
+        }
+      ]
+    },
+    "brasswhizz": {
+      "defaultVariation": {
+        "description": "boards.common.neworleans",
+        "powerType": "None",
+        "referenceId": "brasswhizz.default",
+        "unlockProduct": "brasswhizz_default"
+      },
+      "id": "brasswhizz",
+      "priority": 225,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "brasswhizz.doubleJump",
+            "unlockProduct": "brasswhizz_doubleJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "brasswhizz.glider",
+            "unlockProduct": "brasswhizz_glider"
+          }
+        }
+      ]
+    },
+    "bubblegum": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "bubblegum.default",
+        "unlockProduct": "bubblegum_default"
+      },
+      "id": "bubblegum",
+      "priority": 14,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "buckLightdeer": {
+      "defaultVariation": {
+        "description": "boards.common.northpole",
+        "powerType": "None",
+        "referenceId": "buckLightdeer.default",
+        "unlockProduct": "buckLightdeer_default"
+      },
+      "id": "buckLightdeer",
+      "priority": 302,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "buddyBear": {
+      "defaultVariation": {
+        "description": "boards.common.berlin",
+        "powerType": "None",
+        "referenceId": "buddyBear.default",
+        "unlockProduct": "buddyBear_default"
+      },
+      "id": "buddyBear",
+      "priority": 129,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "bunny": {
+      "defaultVariation": {
+        "description": "boards.common.oxford",
+        "powerType": "None",
+        "referenceId": "bunny.default",
+        "unlockProduct": "bunny_default"
+      },
+      "id": "bunny",
+      "priority": 131,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "businessTime": {
+      "defaultVariation": {
+        "description": "boards.common.subwayclassic",
+        "powerType": "None",
+        "referenceId": "businessTime.default",
+        "unlockProduct": "businessTime_default"
+      },
+      "id": "businessTime",
+      "priority": 278,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "businessTime.lowrider",
+            "unlockProduct": "businessTime_lowrider"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "businessTime.highSpeed",
+            "unlockProduct": "businessTime_highSpeed"
+          }
+        }
+      ]
+    },
+    "buzzbny": {
+      "defaultVariation": {
+        "description": "boards.common.ireland",
+        "powerType": "None",
+        "referenceId": "buzzbny.default",
+        "unlockProduct": "buzzbny_default"
+      },
+      "id": "buzzbny",
+      "priority": 316,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "buzzbny.highSpeed",
+            "unlockProduct": "buzzbny_highSpeed"
+          }
+        }
+      ]
+    },
+    "camel": {
+      "defaultVariation": {
+        "description": "boards.common.marrakesh",
+        "powerType": "None",
+        "referenceId": "camel.default",
+        "unlockProduct": "camel_default"
+      },
+      "id": "camel",
+      "priority": 139,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "candyCrash": {
+      "defaultVariation": {
+        "description": "boards.common.northpole",
+        "powerType": "None",
+        "referenceId": "candyCrash.default",
+        "unlockProduct": "candyCrash_default"
+      },
+      "id": "candyCrash",
+      "priority": 301,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "candyCrash.highSpeed",
+            "unlockProduct": "candyCrash_highSpeed"
+          }
+        }
+      ]
+    },
+    "carpdiem": {
+      "defaultVariation": {
+        "description": "common.holidayspecial.default",
+        "powerType": "SmoothDrift",
+        "referenceId": "carpdiem.default",
+        "unlockProduct": "carpdiem_default"
+      },
+      "id": "carpdiem",
+      "priority": 164,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "casket": {
+      "defaultVariation": {
+        "description": "boards.common.halloweenspecial",
+        "powerType": "None",
+        "referenceId": "casket.default",
+        "unlockProduct": "casket_default"
+      },
+      "id": "casket",
+      "priority": 15,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "catalyst": {
+      "defaultVariation": {
+        "description": "boards.common.istanbul",
+        "powerType": "SuperJump",
+        "referenceId": "catalyst.default",
+        "unlockProduct": "catalyst_default"
+      },
+      "id": "catalyst",
+      "priority": 233,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "cathleticRide": {
+      "defaultVariation": {
+        "description": "boards.common.tokyo",
+        "powerType": "None",
+        "referenceId": "cathleticRide.default",
+        "unlockProduct": "cathleticRide_default"
+      },
+      "id": "cathleticRide",
+      "priority": 321,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "chameleon": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "chameleon.default",
+        "unlockProduct": "chameleon_default"
+      },
+      "id": "chameleon",
+      "priority": 16,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "champ": {
+      "defaultVariation": {
+        "description": "boards.common.paris",
+        "powerType": "None",
+        "referenceId": "champ.default",
+        "unlockProduct": "champ_default"
+      },
+      "id": "champ",
+      "priority": 224,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "champ.doubleJump",
+            "unlockProduct": "champ_doubleJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "champ.glider",
+            "unlockProduct": "champ_glider"
+          }
+        }
+      ]
+    },
+    "charmer": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "charmer.default",
+        "unlockProduct": "charmer_default"
+      },
+      "id": "charmer",
+      "priority": 296,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "charmer.lowrider",
+            "unlockProduct": "charmer_lowrider"
+          }
+        }
+      ]
+    },
+    "cherry": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "cherry.default",
+        "unlockProduct": "cherry_default"
+      },
+      "id": "cherry",
+      "priority": 17,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "chicky": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "chicky.default",
+        "unlockProduct": "chicky_default"
+      },
+      "id": "chicky",
+      "priority": 18,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFFFF",
+            "iconForeground": "#FF6C00FF",
+            "overrideIcon": "icon_upgrade_feather",
+            "powerType": "Vanity",
+            "referenceId": "chicky.trail",
+            "unlockProduct": "chicky_trail"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "chicky.highSpeed",
+            "unlockProduct": "chicky_highSpeed"
+          }
+        }
+      ]
+    },
+    "chillOut": {
+      "defaultVariation": {
+        "description": "boards.common.northpole",
+        "powerType": "None",
+        "referenceId": "chillOut.default",
+        "unlockProduct": "chillOut_default"
+      },
+      "id": "chillOut",
+      "priority": 303,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "chooChoo": {
+      "defaultVariation": {
+        "description": "common.holidayspecial.default",
+        "powerType": "None",
+        "referenceId": "chooChoo.default",
+        "unlockProduct": "chooChoo_default"
+      },
+      "id": "chooChoo",
+      "priority": 19,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "chopchopboard": {
+      "defaultVariation": {
+        "description": "boards.common.sydney",
+        "powerType": "StayLow",
+        "referenceId": "chopchopboard.default",
+        "unlockProduct": "chopchopboard_default"
+      },
+      "id": "chopchopboard",
+      "priority": 230,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "chrome": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "chrome.default",
+        "unlockProduct": "chrome_default"
+      },
+      "id": "chrome",
+      "priority": 20,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "circuitBunny": {
+      "defaultVariation": {
+        "description": "boards.common.subwayclassic",
+        "powerType": "None",
+        "referenceId": "circuitBunny.default",
+        "unlockProduct": "circuitBunny_default"
+      },
+      "id": "circuitBunny",
+      "priority": 280,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "clockwork": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "clockwork.default",
+        "unlockProduct": "clockwork_default"
+      },
+      "id": "clockwork",
+      "priority": 21,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "cobra": {
+      "defaultVariation": {
+        "description": "boards.common.marrakesh",
+        "powerType": "None",
+        "referenceId": "cobra.default",
+        "unlockProduct": "cobra_default"
+      },
+      "id": "cobra",
+      "priority": 22,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "colorCloud": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "colorCloud.default",
+        "unlockProduct": "colorCloud_default"
+      },
+      "id": "colorCloud",
+      "priority": 23,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "Speed",
+            "referenceId": "colorCloud.highSpeed",
+            "unlockProduct": "colorCloud_highSpeed"
+          }
+        },
+        {
+          "id": "teleport",
+          "variation": {
+            "iconBackground": "#FFFFFF00",
+            "iconForeground": "#FF00C3FF",
+            "overrideIcon": "icon_upgrade_color_splash",
+            "powerType": "ZapSideways",
+            "referenceId": "colorCloud.teleport",
+            "unlockProduct": "colorCloud_teleport"
+          }
+        }
+      ]
+    },
+    "colourshift": {
+      "defaultVariation": {
+        "description": "boards.common.newyork",
+        "powerType": "None",
+        "referenceId": "colourshift.default",
+        "unlockProduct": "colourshift_default"
+      },
+      "id": "colourshift",
+      "priority": 172,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "colourshift.glider",
+            "unlockProduct": "colourshift_glider"
+          }
+        }
+      ]
+    },
+    "confetticrush": {
+      "defaultVariation": {
+        "description": "boards.common.greece",
+        "powerType": "None",
+        "referenceId": "confetticrush.default",
+        "unlockProduct": "confetticrush_default"
+      },
+      "id": "confetticrush",
+      "priority": 194,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "cookexpress": {
+      "defaultVariation": {
+        "description": "boards.common.sydney",
+        "powerType": "None",
+        "referenceId": "cookexpress.default",
+        "unlockProduct": "cookexpress_default"
+      },
+      "id": "cookexpress",
+      "priority": 228,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "cookexpress.doubleJump",
+            "unlockProduct": "cookexpress_doubleJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "cookexpress.glider",
+            "unlockProduct": "cookexpress_glider"
+          }
+        }
+      ]
+    },
+    "coral": {
+      "defaultVariation": {
+        "description": "boards.common.bali",
+        "powerType": "None",
+        "referenceId": "coral.default",
+        "unlockProduct": "coral_default"
+      },
+      "id": "coral",
+      "priority": 24,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "couchSurfer": {
+      "defaultVariation": {
+        "description": "boards.common.istanbul",
+        "powerType": "None",
+        "referenceId": "couchSurfer.default",
+        "unlockProduct": "couchSurfer_default"
+      },
+      "id": "couchSurfer",
+      "priority": 232,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "couchSurfer.glider",
+            "unlockProduct": "couchSurfer_glider"
+          }
+        },
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "couchSurfer.doubleJump",
+            "unlockProduct": "couchSurfer_doubleJump"
+          }
+        }
+      ]
+    },
+    "cozycruiser": {
+      "defaultVariation": {
+        "description": "boards.common.iceland",
+        "powerType": "SuperJump",
+        "referenceId": "cozycruiser.default",
+        "unlockProduct": "cozycruiser_default"
+      },
+      "id": "cozycruiser",
+      "priority": 242,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "cozycruiser.highSpeed",
+            "unlockProduct": "cozycruiser_highSpeed"
+          }
+        },
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "cozycruiser.lowrider",
+            "unlockProduct": "cozycruiser_lowrider"
+          }
+        }
+      ]
+    },
+    "crane": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "crane.default",
+        "unlockProduct": "crane_default"
+      },
+      "id": "crane",
+      "priority": 128,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "crashTest": {
+      "defaultVariation": {
+        "description": "boards.common.monaco",
+        "powerType": "None",
+        "referenceId": "crashTest.default",
+        "unlockProduct": "crashTest_default"
+      },
+      "id": "crashTest",
+      "priority": 149,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "crashTest.highSpeed",
+            "unlockProduct": "crashTest_highSpeed"
+          }
+        }
+      ]
+    },
+    "croc": {
+      "defaultVariation": {
+        "description": "boards.common.cairo",
+        "powerType": "None",
+        "referenceId": "croc.default",
+        "unlockProduct": "croc_default"
+      },
+      "id": "croc",
+      "priority": 25,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "cruiser": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "cruiser.default",
+        "unlockProduct": "cruiser_default"
+      },
+      "id": "cruiser",
+      "priority": 26,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "cyannote": {
+      "defaultVariation": {
+        "description": "boards.common.mumbai",
+        "powerType": "None",
+        "referenceId": "cyannote.default",
+        "unlockProduct": "cyannote_default"
+      },
+      "id": "cyannote",
+      "priority": 259,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "cyannote.glider",
+            "unlockProduct": "cyannote_glider"
+          }
+        }
+      ]
+    },
+    "dangerdasher": {
+      "defaultVariation": {
+        "description": "boards.common.rivals",
+        "powerType": "None",
+        "referenceId": "dangerdasher.default",
+        "unlockProduct": "dangerdasher_default"
+      },
+      "id": "dangerdasher",
+      "priority": 170,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "dangerdasher.lowrider",
+            "unlockProduct": "dangerdasher_lowrider"
+          }
+        },
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "dangerdasher.doubleJump",
+            "unlockProduct": "dangerdasher_doubleJump"
+          }
+        }
+      ]
+    },
+    "daredevil": {
+      "defaultVariation": {
+        "powerType": "SuperSpeed",
+        "referenceId": "daredevil.default",
+        "unlockProduct": "daredevil_default"
+      },
+      "id": "daredevil",
+      "priority": 27,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "deardart": {
+      "defaultVariation": {
+        "description": "boards.common.hawaii",
+        "powerType": "SmoothDrift",
+        "referenceId": "deardart.default",
+        "unlockProduct": "deardart_default"
+      },
+      "id": "deardart",
+      "priority": 254,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "default": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "default.default",
+        "unlockProduct": "default_default"
+      },
+      "id": "default",
+      "priority": 28,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "delivroom": {
+      "defaultVariation": {
+        "description": "boards.common.marrakesh",
+        "powerType": "None",
+        "referenceId": "delivroom.default",
+        "unlockProduct": "delivroom_default"
+      },
+      "id": "delivroom",
+      "priority": 205,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "delivroom.doubleJump",
+            "unlockProduct": "delivroom_doubleJump"
+          }
+        }
+      ]
+    },
+    "desertRacer": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "desertRacer.default",
+        "unlockProduct": "desertRacer_default"
+      },
+      "id": "desertRacer",
+      "priority": 29,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "diablo": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "diablo.default",
+        "unlockProduct": "diablo_default"
+      },
+      "id": "diablo",
+      "priority": 30,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "discovery": {
+      "defaultVariation": {
+        "description": "boards.common.space",
+        "powerType": "None",
+        "referenceId": "discovery.default",
+        "unlockProduct": "discovery_default"
+      },
+      "id": "discovery",
+      "priority": 126,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "dragon": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "dragon.default",
+        "unlockProduct": "dragon_default"
+      },
+      "id": "dragon",
+      "priority": 31,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "dragonBoat": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "dragonBoat.default",
+        "unlockProduct": "dragonBoat_default"
+      },
+      "id": "dragonBoat",
+      "priority": 135,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "eagle": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "eagle.default",
+        "unlockProduct": "eagle_default"
+      },
+      "id": "eagle",
+      "priority": 32,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "edinburst": {
+      "defaultVariation": {
+        "description": "boards.common.edinburgh",
+        "powerType": "None",
+        "referenceId": "edinburst.default",
+        "unlockProduct": "edinburst_default"
+      },
+      "id": "edinburst",
+      "priority": 263,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "eggscalibur": {
+      "defaultVariation": {
+        "description": "boards.common.edinburgh",
+        "powerType": "None",
+        "referenceId": "eggscalibur.default",
+        "unlockProduct": "eggscalibur_default"
+      },
+      "id": "eggscalibur",
+      "priority": 262,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "eggscalibur.doubleJump",
+            "unlockProduct": "eggscalibur_doubleJump"
+          }
+        }
+      ]
+    },
+    "eightBall": {
+      "defaultVariation": {
+        "description": "boards.common.eightBall",
+        "powerType": "None",
+        "referenceId": "eightBall.default",
+        "unlockProduct": "eightBall_default"
+      },
+      "id": "eightBall",
+      "priority": 288,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "electroshock": {
+      "defaultVariation": {
+        "description": "boards.common.shenzhen",
+        "powerType": "None",
+        "referenceId": "electroshock.default",
+        "unlockProduct": "electroshock_default"
+      },
+      "id": "electroshock",
+      "priority": 192,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "electroshock.doubleJump",
+            "unlockProduct": "electroshock_doubleJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "electroshock.glider",
+            "unlockProduct": "electroshock_glider"
+          }
+        }
+      ]
+    },
+    "endeavour": {
+      "defaultVariation": {
+        "description": "boards.common.space",
+        "powerType": "None",
+        "referenceId": "endeavour.default",
+        "unlockProduct": "endeavour_default"
+      },
+      "id": "endeavour",
+      "priority": 125,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "energy": {
+      "defaultVariation": {
+        "description": "boards.common.superstarboard_description",
+        "powerType": "None",
+        "referenceId": "energy.default",
+        "unlockProduct": "energy_default"
+      },
+      "id": "energy",
+      "priority": 184,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "teleport",
+          "variation": {
+            "powerType": "ZapSideways",
+            "referenceId": "energy.teleport",
+            "unlockProduct": "energy_teleport"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "energy.superJump",
+            "unlockProduct": "energy_superJump"
+          }
+        }
+      ]
+    },
+    "eRacer": {
+      "defaultVariation": {
+        "description": "boards.common.oxford",
+        "powerType": "None",
+        "referenceId": "eRacer.default",
+        "unlockProduct": "eRacer_default"
+      },
+      "id": "eRacer",
+      "priority": 283,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "fallspeed": {
+      "defaultVariation": {
+        "description": "boards.common.vancouver",
+        "powerType": "None",
+        "referenceId": "fallspeed.default",
+        "unlockProduct": "fallspeed_default"
+      },
+      "id": "fallspeed",
+      "priority": 240,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "fallspeed.doubleJump",
+            "unlockProduct": "fallspeed_doubleJump"
+          }
+        }
+      ]
+    },
+    "fanTastic": {
+      "defaultVariation": {
+        "description": "boards.common.barcelona",
+        "powerType": "SuperSpeed",
+        "referenceId": "fanTastic.default",
+        "unlockProduct": "fanTastic_default"
+      },
+      "id": "fanTastic",
+      "priority": 166,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "fastandfestive": {
+      "defaultVariation": {
+        "description": "boards.common.ireland",
+        "powerType": "SuperJump",
+        "referenceId": "fastandfestive.default",
+        "unlockProduct": "fastandfestive_default"
+      },
+      "id": "fastandfestive",
+      "priority": 202,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "fastFurward": {
+      "defaultVariation": {
+        "description": "boards.common.tokyo",
+        "powerType": "None",
+        "referenceId": "fastFurward.default",
+        "unlockProduct": "fastFurward_default"
+      },
+      "id": "fastFurward",
+      "priority": 319,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "fastFurward.superJump",
+            "unlockProduct": "fastFurward_superJump"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "fastFurward.highSpeed",
+            "unlockProduct": "fastFurward_highSpeed"
+          }
+        }
+      ]
+    },
+    "fauxpunx": {
+      "defaultVariation": {
+        "description": "boards.common.london",
+        "powerType": "SuperJump",
+        "referenceId": "fauxpunx.default",
+        "unlockProduct": "fauxpunx_default"
+      },
+      "id": "fauxpunx",
+      "priority": 185,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "feartractor": {
+      "defaultVariation": {
+        "description": "boards.common.hauntedhood",
+        "powerType": "None",
+        "referenceId": "feartractor.default",
+        "unlockProduct": "feartractor_default"
+      },
+      "id": "feartractor",
+      "priority": 235,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "feartractor.doubleJump",
+            "unlockProduct": "feartractor_doubleJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "feartractor.glider",
+            "unlockProduct": "feartractor_glider"
+          }
+        }
+      ]
+    },
+    "feelingBeachy": {
+      "defaultVariation": {
+        "description": "boards.common.barcelona",
+        "powerType": "None",
+        "referenceId": "feelingBeachy.default",
+        "unlockProduct": "feelingBeachy_default"
+      },
+      "id": "feelingBeachy",
+      "priority": 274,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "fiesta": {
+      "defaultVariation": {
+        "description": "boards.common.mexico",
+        "powerType": "None",
+        "referenceId": "fiesta.default",
+        "unlockProduct": "fiesta_default"
+      },
+      "id": "fiesta",
+      "priority": 292,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "fiesta.highSpeed",
+            "unlockProduct": "fiesta_highSpeed"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "fiesta.glider",
+            "unlockProduct": "fiesta_glider"
+          }
+        }
+      ]
+    },
+    "finishLine": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "finishLine.default",
+        "unlockProduct": "finishLine_default"
+      },
+      "id": "finishLine",
+      "priority": 290,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "finishLine.superJump",
+            "unlockProduct": "finishLine_superJump"
+          }
+        }
+      ]
+    },
+    "fireDragon": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "fireDragon.default",
+        "unlockProduct": "fireDragon_default"
+      },
+      "id": "fireDragon",
+      "priority": 33,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "fireStarter": {
+      "defaultVariation": {
+        "description": "boards.common.winterxtreme",
+        "powerType": "None",
+        "referenceId": "fireStarter.default",
+        "unlockProduct": "fireStarter_default",
+        "thumbnailPreset": {
+          "h": 0.6900000238418579,
+          "w": 0.6900000238418579,
+          "x": 0.14000000298023224,
+          "y": 0.21000000238418579
+        }
+      },
+      "id": "fireStarter",
+      "priority": 307,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "fireStarter.highSpeed",
+            "unlockProduct": "fireStarter_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "fireStarter.superJump",
+            "unlockProduct": "fireStarter_superJump"
+          }
+        }
+      ]
+    },
+    "flamingdoll": {
+      "defaultVariation": {
+        "description": "boards.common.hauntedhood",
+        "powerType": "None",
+        "referenceId": "flamingdoll.default",
+        "unlockProduct": "flamingdoll_default"
+      },
+      "id": "flamingdoll",
+      "priority": 180,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "flamingdoll.lowrider",
+            "unlockProduct": "flamingdoll_lowrider"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "flamingdoll.superJump",
+            "unlockProduct": "flamingdoll_superJump"
+          }
+        }
+      ]
+    },
+    "flamingo": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "flamingo.default",
+        "unlockProduct": "flamingo_default"
+      },
+      "id": "flamingo",
+      "priority": 34,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "flashjet": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "SmoothDrift",
+        "referenceId": "flashjet.default",
+        "unlockProduct": "flashjet_default"
+      },
+      "id": "flashjet",
+      "priority": 187,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "flashofflavor": {
+      "defaultVariation": {
+        "description": "boards.common.istanbul",
+        "powerType": "None",
+        "referenceId": "flashofflavor.default",
+        "unlockProduct": "flashofflavor_default"
+      },
+      "id": "flashofflavor",
+      "priority": 234,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "floatBooster": {
+      "defaultVariation": {
+        "description": "boards.common.barcelona",
+        "powerType": "None",
+        "referenceId": "floatBooster.default",
+        "unlockProduct": "floatBooster_default"
+      },
+      "id": "floatBooster",
+      "priority": 272,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "floatBooster.highSpeed",
+            "unlockProduct": "floatBooster_highSpeed"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "floatBooster.glider",
+            "unlockProduct": "floatBooster_glider"
+          }
+        }
+      ]
+    },
+    "flyingHorse": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "flyingHorse.default",
+        "unlockProduct": "flyingHorse_default"
+      },
+      "id": "flyingHorse",
+      "priority": 35,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "fourLeafFlux": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "fourLeafFlux.default",
+        "unlockProduct": "fourLeafFlux_default"
+      },
+      "id": "fourLeafFlux",
+      "priority": 297,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "foxtrail": {
+      "defaultVariation": {
+        "description": "boards.common.vancouver",
+        "powerType": "None",
+        "referenceId": "foxtrail.default",
+        "unlockProduct": "foxtrail_default"
+      },
+      "id": "foxtrail",
+      "priority": 239,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "foxtrail.superJump",
+            "unlockProduct": "foxtrail_superJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "foxtrail.glider",
+            "unlockProduct": "foxtrail_glider"
+          }
+        }
+      ]
+    },
+    "foxTrotter": {
+      "defaultVariation": {
+        "description": "boards.common.tokyo",
+        "powerType": "None",
+        "referenceId": "foxTrotter.default",
+        "unlockProduct": "foxTrotter_default"
+      },
+      "id": "foxTrotter",
+      "priority": 320,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "foxTrotter.glider",
+            "unlockProduct": "foxTrotter_glider"
+          }
+        }
+      ]
+    },
+    "frankmobile": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "frankmobile.default",
+        "unlockProduct": "frankmobile_default"
+      },
+      "id": "frankmobile",
+      "priority": 304,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "frankmobile.superJump",
+            "unlockProduct": "frankmobile_superJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "frankmobile.glider",
+            "unlockProduct": "frankmobile_glider"
+          }
+        }
+      ]
+    },
+    "freebird": {
+      "defaultVariation": {
+        "description": "boards.common.copenhagen",
+        "powerType": "None",
+        "referenceId": "freebird.default",
+        "unlockProduct": "freebird_default"
+      },
+      "id": "freebird",
+      "priority": 270,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "freestyler": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "freestyler.default",
+        "unlockProduct": "freestyler_default"
+      },
+      "id": "freestyler",
+      "priority": 36,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "freestyler.doubleJump",
+            "unlockProduct": "freestyler_doubleJump"
+          }
+        },
+        {
+          "id": "jumper",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "freestyler.jumper",
+            "unlockProduct": "freestyler_jumper"
+          }
+        }
+      ]
+    },
+    "freshlove": {
+      "defaultVariation": {
+        "description": "boards.common.hawaii",
+        "powerType": "None",
+        "referenceId": "freshlove.default",
+        "unlockProduct": "freshlove_default"
+      },
+      "id": "freshlove",
+      "priority": 253,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "freshlove.highSpeed",
+            "unlockProduct": "freshlove_highSpeed"
+          }
+        }
+      ]
+    },
+    "futureWave": {
+      "defaultVariation": {
+        "description": "boards.common.rivals",
+        "powerType": "None",
+        "referenceId": "futureWave.default",
+        "unlockProduct": "futureWave_default"
+      },
+      "id": "futureWave",
+      "priority": 173,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "futureWave.highSpeed",
+            "unlockProduct": "futureWave_highSpeed"
+          }
+        },
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "futureWave.doubleJump",
+            "unlockProduct": "futureWave_doubleJump"
+          }
+        }
+      ]
+    },
+    "gadgetforce": {
+      "defaultVariation": {
+        "description": "boards.common.vienna",
+        "powerType": "None",
+        "referenceId": "gadgetforce.default",
+        "unlockProduct": "gadgetforce_default"
+      },
+      "id": "gadgetforce",
+      "priority": 246,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "gadgetforce.doubleJump",
+            "unlockProduct": "gadgetforce_doubleJump"
+          }
+        }
+      ]
+    },
+    "galacticPeel": {
+      "defaultVariation": {
+        "description": "boards.common.mexico",
+        "powerType": "None",
+        "referenceId": "galacticPeel.default",
+        "unlockProduct": "galacticPeel_default"
+      },
+      "id": "galacticPeel",
+      "priority": 294,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "ghastlyglider": {
+      "defaultVariation": {
+        "description": "boards.common.oxford",
+        "powerType": "None",
+        "referenceId": "ghastlyglider.default",
+        "unlockProduct": "ghastlyglider_default"
+      },
+      "id": "ghastlyglider",
+      "priority": 165,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "gingerBoom": {
+      "defaultVariation": {
+        "description": "common.holidayspecial.default",
+        "powerType": "None",
+        "referenceId": "gingerBoom.default",
+        "unlockProduct": "gingerBoom_default"
+      },
+      "id": "gingerBoom",
+      "priority": 143,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "glacier": {
+      "defaultVariation": {
+        "description": "common.holidayspecial.default",
+        "powerType": "None",
+        "referenceId": "glacier.default",
+        "unlockProduct": "glacier_default"
+      },
+      "id": "glacier",
+      "priority": 37,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "glarx3000": {
+      "defaultVariation": {
+        "description": "boards.common.hollywood",
+        "powerType": "SuperJump",
+        "referenceId": "glarx3000.default",
+        "unlockProduct": "glarx3000_default"
+      },
+      "id": "glarx3000",
+      "priority": 219,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "glarx3000.glider",
+            "unlockProduct": "glarx3000_glider"
+          }
+        }
+      ]
+    },
+    "glitterBlaster": {
+      "defaultVariation": {
+        "description": "boards.common.barcelona",
+        "powerType": "None",
+        "referenceId": "glitterBlaster.default",
+        "unlockProduct": "glitterBlaster_default"
+      },
+      "id": "glitterBlaster",
+      "priority": 273,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "glitterBlaster.superJump",
+            "unlockProduct": "glitterBlaster_superJump"
+          }
+        }
+      ]
+    },
+    "goat": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "goat.default",
+        "unlockProduct": "goat_default"
+      },
+      "id": "goat",
+      "priority": 38,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "gobbleTrouble": {
+      "defaultVariation": {
+        "description": "boards.common.newyork",
+        "powerType": "None",
+        "referenceId": "gobbleTrouble.default",
+        "unlockProduct": "gobbleTrouble_default"
+      },
+      "id": "gobbleTrouble",
+      "priority": 298,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "gobbleTrouble.glider",
+            "unlockProduct": "gobbleTrouble_glider"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "gobbleTrouble.highSpeed",
+            "unlockProduct": "gobbleTrouble_highSpeed"
+          }
+        }
+      ]
+    },
+    "goldRush": {
+      "defaultVariation": {
+        "description": "boards.common.london",
+        "powerType": "None",
+        "referenceId": "goldRush.default",
+        "unlockProduct": "goldRush_default"
+      },
+      "id": "goldRush",
+      "priority": 312,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "gondola": {
+      "defaultVariation": {
+        "description": "boards.common.venice",
+        "powerType": "None",
+        "referenceId": "gondola.default",
+        "unlockProduct": "gondola_default"
+      },
+      "id": "gondola",
+      "priority": 39,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "greatWhite": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "greatWhite.default",
+        "unlockProduct": "greatWhite_default"
+      },
+      "id": "greatWhite",
+      "priority": 40,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "speed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "greatWhite.speed",
+            "unlockProduct": "greatWhite_speed"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "greatWhite.glider",
+            "unlockProduct": "greatWhite_glider"
+          }
+        }
+      ]
+    },
+    "groovy": {
+      "defaultVariation": {
+        "description": "boards.common.sanfrancisco",
+        "powerType": "None",
+        "referenceId": "groovy.default",
+        "unlockProduct": "groovy_default"
+      },
+      "id": "groovy",
+      "priority": 41,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFF00",
+            "iconForeground": "#FF75DAFF",
+            "overrideIcon": "icon_upgrade_flower",
+            "powerType": "Vanity",
+            "referenceId": "groovy.trail",
+            "unlockProduct": "groovy_trail"
+          }
+        }
+      ]
+    },
+    "guardboard": {
+      "defaultVariation": {
+        "description": "boards.common.adminboard",
+        "powerType": "None",
+        "referenceId": "guardboard.default",
+        "unlockProduct": "guardboard_default"
+      },
+      "id": "guardboard",
+      "priority": 264,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "guardboard.glider",
+            "unlockProduct": "guardboard_glider"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "guardboard.highSpeed",
+            "unlockProduct": "guardboard_highSpeed"
+          }
+        }
+      ]
+    },
+    "hammer": {
+      "defaultVariation": {
+        "description": "boards.common.copenhagen",
+        "powerType": "None",
+        "referenceId": "hammer.default",
+        "unlockProduct": "hammer_default"
+      },
+      "id": "hammer",
+      "priority": 42,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "heartstopper": {
+      "defaultVariation": {
+        "description": "boards.common.hawaii",
+        "powerType": "SuperJump",
+        "referenceId": "heartstopper.default",
+        "unlockProduct": "heartstopper_default"
+      },
+      "id": "heartstopper",
+      "priority": 252,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "heartstopper.highSpeed",
+            "unlockProduct": "heartstopper_highSpeed"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "heartstopper.glider",
+            "unlockProduct": "heartstopper_glider"
+          }
+        }
+      ]
+    },
+    "heavymetal": {
+      "defaultVariation": {
+        "description": "boards.common.paris",
+        "powerType": "SuperJump",
+        "referenceId": "heavymetal.default",
+        "unlockProduct": "heavymetal_default"
+      },
+      "id": "heavymetal",
+      "priority": 223,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "heavymetal.highSpeed",
+            "unlockProduct": "heavymetal_highSpeed"
+          }
+        },
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "heavymetal.lowrider",
+            "unlockProduct": "heavymetal_lowrider"
+          }
+        }
+      ]
+    },
+    "hexed": {
+      "defaultVariation": {
+        "description": "boards.common.halloweenspecial",
+        "powerType": "None",
+        "referenceId": "hexed.default",
+        "unlockProduct": "hexed_default"
+      },
+      "id": "hexed",
+      "priority": 43,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "hohohoverboard": {
+      "defaultVariation": {
+        "description": "common.holidayspecial.default",
+        "powerType": "None",
+        "referenceId": "hohohoverboard.default",
+        "unlockProduct": "hohohoverboard_default"
+      },
+      "id": "hohohoverboard",
+      "priority": 163,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "hotdog": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "hotdog.default",
+        "unlockProduct": "hotdog_default"
+      },
+      "id": "hotdog",
+      "priority": 44,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "hotrod": {
+      "defaultVariation": {
+        "powerType": "Speed",
+        "referenceId": "hotrod.default",
+        "unlockProduct": "hotrod_default"
+      },
+      "id": "hotrod",
+      "priority": 45,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "hyperviper": {
+      "defaultVariation": {
+        "description": "boards.common.luoyang",
+        "powerType": "None",
+        "referenceId": "hyperviper.default",
+        "unlockProduct": "hyperviper_default"
+      },
+      "id": "hyperviper",
+      "priority": 250,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "hyperviper.highSpeed",
+            "unlockProduct": "hyperviper_highSpeed"
+          }
+        }
+      ]
+    },
+    "icecool": {
+      "defaultVariation": {
+        "description": "boards.common.vienna",
+        "powerType": "SuperSpeed",
+        "referenceId": "icecool.default",
+        "unlockProduct": "icecool_default"
+      },
+      "id": "icecool",
+      "priority": 247,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "icicle": {
+      "defaultVariation": {
+        "description": "boards.common.iceland",
+        "powerType": "None",
+        "referenceId": "icicle.default",
+        "unlockProduct": "icicle_default"
+      },
+      "id": "icicle",
+      "priority": 243,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "icicle.glider",
+            "unlockProduct": "icicle_glider"
+          }
+        }
+      ]
+    },
+    "interstellar": {
+      "defaultVariation": {
+        "description": "boards.common.lasvegas",
+        "powerType": "None",
+        "referenceId": "interstellar.default",
+        "unlockProduct": "interstellar_default"
+      },
+      "id": "interstellar",
+      "priority": 198,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "interstellar.glider",
+            "unlockProduct": "interstellar_glider"
+          }
+        },
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "interstellar.lowrider",
+            "unlockProduct": "interstellar_lowrider"
+          }
+        }
+      ]
+    },
+    "iscream": {
+      "defaultVariation": {
+        "description": "boards.common.edinburgh",
+        "powerType": "None",
+        "referenceId": "iscream.default",
+        "unlockProduct": "iscream_default"
+      },
+      "id": "iscream",
+      "priority": 168,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "jak": {
+      "defaultVariation": {
+        "description": "boards.common.adminboard",
+        "powerType": "None",
+        "referenceId": "jak.default",
+        "thumbnailPreset": {
+          "h": 0.6000000238418579,
+          "w": 0.6000000238418579,
+          "x": 0.20000000298023224,
+          "y": 0.3100000023841858
+        },
+        "unlockProduct": "jak_default"
+      },
+      "id": "jak",
+      "priority": 204,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "jak.glider",
+            "unlockProduct": "jak_glider"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "jak.highSpeed",
+            "unlockProduct": "jak_highSpeed"
+          }
+        }
+      ]
+    },
+    "jamanta": {
+      "defaultVariation": {
+        "description": "boards.common.rio",
+        "powerType": "None",
+        "referenceId": "jamanta.default",
+        "unlockProduct": "jamanta_default"
+      },
+      "id": "jamanta",
+      "priority": 176,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "jamanta.glider",
+            "unlockProduct": "jamanta_glider"
+          }
+        }
+      ]
+    },
+    "jazz": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "jazz.default",
+        "unlockProduct": "jazz_default"
+      },
+      "id": "jazz",
+      "priority": 46,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "Speed",
+            "referenceId": "jazz.highSpeed",
+            "unlockProduct": "jazz_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "jazz.superJump",
+            "unlockProduct": "jazz_superJump"
+          }
+        }
+      ]
+    },
+    "jellyboard": {
+      "defaultVariation": {
+        "description": "boards.common.underwater",
+        "powerType": "None",
+        "referenceId": "jellyboard.default",
+        "unlockProduct": "jellyboard_default"
+      },
+      "id": "jellyboard",
+      "priority": 207,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "jellyboard.highSpeed",
+            "unlockProduct": "jellyboard_highSpeed"
+          }
+        }
+      ]
+    },
+    "jewelled": {
+      "defaultVariation": {
+        "description": "boards.common.arabia",
+        "powerType": "None",
+        "referenceId": "jewelled.default",
+        "unlockProduct": "jewelled_default"
+      },
+      "id": "jewelled",
+      "priority": 47,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "jingledingle": {
+      "defaultVariation": {
+        "description": "boards.common.vienna",
+        "powerType": "SmoothDrift",
+        "referenceId": "jingledingle.default",
+        "unlockProduct": "jingledingle_default"
+      },
+      "id": "jingledingle",
+      "priority": 245,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "jingledingle.highSpeed",
+            "unlockProduct": "jingledingle_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "jingledingle.superJump",
+            "unlockProduct": "jingledingle_superJump"
+          }
+        }
+      ]
+    },
+    "jingles": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "jingles.default",
+        "unlockProduct": "jingles_default"
+      },
+      "id": "jingles",
+      "priority": 48,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFF00",
+            "iconForeground": "#5BFDFFFF",
+            "overrideIcon": "icon_upgrade_snow_trail",
+            "powerType": "Vanity",
+            "referenceId": "jingles.trail",
+            "unlockProduct": "jingles_trail"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "jingles.superJump",
+            "unlockProduct": "jingles_superJump"
+          }
+        }
+      ]
+    },
+    "jouster": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "jouster.default",
+        "unlockProduct": "jouster_default"
+      },
+      "id": "jouster",
+      "priority": 49,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "kdillac": {
+      "defaultVariation": {
+        "description": "boards.common.seoul",
+        "powerType": "SuperSpeed",
+        "referenceId": "kdillac.default",
+        "unlockProduct": "kdillac_default"
+      },
+      "id": "kdillac",
+      "priority": 183,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "kickOff": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "kickOff.default",
+        "unlockProduct": "kickOff_default"
+      },
+      "id": "kickOff",
+      "priority": 50,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "kite": {
+      "defaultVariation": {
+        "description": "boards.common.rio",
+        "powerType": "None",
+        "referenceId": "kite.default",
+        "unlockProduct": "kite_default"
+      },
+      "id": "kite",
+      "priority": 175,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "kitty": {
+      "defaultVariation": {
+        "description": "boards.common.tokyo",
+        "powerType": "None",
+        "referenceId": "kitty.default",
+        "unlockProduct": "kitty_default"
+      },
+      "id": "kitty",
+      "priority": 51,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "koinobori": {
+      "defaultVariation": {
+        "description": "boards.common.underwater",
+        "powerType": "SmoothDrift",
+        "referenceId": "koinobori.default",
+        "unlockProduct": "koinobori_default"
+      },
+      "id": "koinobori",
+      "priority": 209,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "lantern": {
+      "defaultVariation": {
+        "description": "boards.common.luoyang",
+        "powerType": "None",
+        "referenceId": "lantern.default",
+        "unlockProduct": "lantern_default"
+      },
+      "id": "lantern",
+      "priority": 249,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "lantern.doubleJump",
+            "unlockProduct": "lantern_doubleJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "lantern.glider",
+            "unlockProduct": "lantern_glider"
+          }
+        }
+      ]
+    },
+    "laserflip": {
+      "defaultVariation": {
+        "description": "boards.common.sanfrancisco",
+        "powerType": "None",
+        "referenceId": "laserflip.default",
+        "unlockProduct": "laserflip_default"
+      },
+      "id": "laserflip",
+      "priority": 215,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "laserflip.doubleJump",
+            "unlockProduct": "laserflip_doubleJump"
+          }
+        }
+      ]
+    },
+    "leaf": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "SmoothDrift",
+        "referenceId": "leaf.default",
+        "unlockProduct": "leaf_default"
+      },
+      "id": "leaf",
+      "priority": 52,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "liberty": {
+      "defaultVariation": {
+        "description": "boards.common.newyork",
+        "powerType": "None",
+        "referenceId": "liberty.default",
+        "unlockProduct": "liberty_default"
+      },
+      "id": "liberty",
+      "priority": 53,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "lion": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "lion.default",
+        "unlockProduct": "lion_default"
+      },
+      "id": "lion",
+      "priority": 54,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "lowrider": {
+      "defaultVariation": {
+        "powerType": "StayLow",
+        "referenceId": "lowrider.default",
+        "unlockProduct": "lowrider_default"
+      },
+      "id": "lowrider",
+      "priority": 55,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "luckyFish": {
+      "defaultVariation": {
+        "description": "boards.common.london",
+        "powerType": "None",
+        "referenceId": "luckyFish.default",
+        "unlockProduct": "luckyFish_default"
+      },
+      "id": "luckyFish",
+      "priority": 311,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "luckyFish.highSpeed",
+            "unlockProduct": "luckyFish_highSpeed"
+          }
+        }
+      ]
+    },
+    "lumberjack": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "lumberjack.default",
+        "unlockProduct": "lumberjack_default"
+      },
+      "id": "lumberjack",
+      "priority": 56,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "lumberjack.doubleJump",
+            "unlockProduct": "lumberjack_doubleJump"
+          }
+        },
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "lumberjack.lowrider",
+            "unlockProduct": "lumberjack_lowrider"
+          }
+        }
+      ]
+    },
+    "lunarscroll": {
+      "defaultVariation": {
+        "description": "boards.common.greece",
+        "powerType": "None",
+        "referenceId": "lunarscroll.default",
+        "unlockProduct": "lunarscroll_default"
+      },
+      "id": "lunarscroll",
+      "priority": 196,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "lunarTiger": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "lunarTiger.default",
+        "unlockProduct": "lunarTiger_default"
+      },
+      "id": "lunarTiger",
+      "priority": 145,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "magicCarpet": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "magicCarpet.default",
+        "unlockProduct": "magicCarpet_default"
+      },
+      "id": "magicCarpet",
+      "priority": 57,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "magicCarpet.glider",
+            "unlockProduct": "magicCarpet_glider"
+          }
+        },
+        {
+          "id": "jumper",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "magicCarpet.jumper",
+            "unlockProduct": "magicCarpet_jumper"
+          }
+        }
+      ]
+    },
+    "magNeatO": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "ZapSideways",
+        "referenceId": "magNeatO.default",
+        "unlockProduct": "magNeatO_default"
+      },
+      "id": "magNeatO",
+      "priority": 154,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "majorSpeed": {
+      "defaultVariation": {
+        "description": "boards.common.rome",
+        "powerType": "None",
+        "referenceId": "majorSpeed.default",
+        "unlockProduct": "majorSpeed_default"
+      },
+      "id": "majorSpeed",
+      "priority": 315,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "mapleLeaf": {
+      "defaultVariation": {
+        "description": "boards.common.vancouver",
+        "powerType": "None",
+        "referenceId": "mapleLeaf.default",
+        "unlockProduct": "mapleLeaf_default"
+      },
+      "id": "mapleLeaf",
+      "priority": 141,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "mapleLeaf.glider",
+            "unlockProduct": "mapleLeaf_glider"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "mapleLeaf.superJump",
+            "unlockProduct": "mapleLeaf_superJump"
+          }
+        }
+      ]
+    },
+    "marbleous": {
+      "defaultVariation": {
+        "description": "boards.common.rome",
+        "powerType": "None",
+        "referenceId": "marbleous.default",
+        "unlockProduct": "marbleous_default"
+      },
+      "id": "marbleous",
+      "priority": 313,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "marbleous.highSpeed",
+            "unlockProduct": "marbleous_highSpeed"
+          }
+        },
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "marbleous.doubleJump",
+            "unlockProduct": "marbleous_doubleJump"
+          }
+        }
+      ]
+    },
+    "mayomania": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "mayomania.default",
+        "unlockProduct": "mayomania_default"
+      },
+      "id": "mayomania",
+      "priority": 210,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "mayomania.highSpeed",
+            "unlockProduct": "mayomania_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "mayomania.superJump",
+            "unlockProduct": "mayomania_superJump"
+          }
+        }
+      ]
+    },
+    "meanGreenMachine": {
+      "defaultVariation": {
+        "description": "boards.common.northpole",
+        "powerType": "None",
+        "referenceId": "meanGreenMachine.default",
+        "unlockProduct": "meanGreenMachine_default"
+      },
+      "id": "meanGreenMachine",
+      "priority": 300,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "meanGreenMachine.superJump",
+            "unlockProduct": "meanGreenMachine_superJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "meanGreenMachine.glider",
+            "unlockProduct": "meanGreenMachine_glider"
+          }
+        }
+      ]
+    },
+    "medal": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "medal.default",
+        "unlockProduct": "medal_default"
+      },
+      "id": "medal",
+      "priority": 58,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "meggabite": {
+      "defaultVariation": {
+        "description": "boards.common.ireland",
+        "powerType": "None",
+        "referenceId": "meggabite.default",
+        "unlockProduct": "meggabite_default"
+      },
+      "id": "meggabite",
+      "priority": 200,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "meggabite.highSpeed",
+            "unlockProduct": "meggabite_highSpeed"
+          }
+        },
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "meggabite.lowrider",
+            "unlockProduct": "meggabite_lowrider"
+          }
+        }
+      ]
+    },
+    "midsummer": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "midsummer.default",
+        "unlockProduct": "midsummer_default"
+      },
+      "id": "midsummer",
+      "priority": 277,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "mizuDash": {
+      "defaultVariation": {
+        "description": "boards.common.osaka",
+        "powerType": "None",
+        "referenceId": "mizuDash.default",
+        "unlockProduct": "mizuDash_default"
+      },
+      "id": "mizuDash",
+      "priority": 266,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "mizuDash.highSpeed",
+            "unlockProduct": "mizuDash_highSpeed"
+          }
+        }
+      ]
+    },
+    "monster": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "monster.default",
+        "unlockProduct": "monster_default"
+      },
+      "id": "monster",
+      "priority": 59,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "monster.highSpeed",
+            "unlockProduct": "monster_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "monster.superJump",
+            "unlockProduct": "monster_superJump"
+          }
+        }
+      ]
+    },
+    "moonBiter": {
+      "defaultVariation": {
+        "description": "boards.common.greece",
+        "powerType": "None",
+        "referenceId": "moonBiter.default",
+        "unlockProduct": "moonBiter_default"
+      },
+      "id": "moonBiter",
+      "priority": 285,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "moonBiter.doubleJump",
+            "unlockProduct": "moonBiter_doubleJump"
+          }
+        }
+      ]
+    },
+    "mooncake": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "mooncake.default",
+        "unlockProduct": "mooncake_default"
+      },
+      "id": "mooncake",
+      "priority": 231,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "moongazer": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "moongazer.default",
+        "unlockProduct": "moongazer_default"
+      },
+      "id": "moongazer",
+      "priority": 257,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "moose": {
+      "defaultVariation": {
+        "description": "boards.common.vancouver",
+        "powerType": "None",
+        "referenceId": "moose.default",
+        "unlockProduct": "moose_default"
+      },
+      "id": "moose",
+      "priority": 60,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "moped": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "moped.default",
+        "unlockProduct": "moped_default"
+      },
+      "id": "moped",
+      "priority": 156,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "mosaic": {
+      "defaultVariation": {
+        "description": "boards.common.barcelona",
+        "powerType": "None",
+        "referenceId": "mosaic.default",
+        "unlockProduct": "mosaic_default"
+      },
+      "id": "mosaic",
+      "priority": 61,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "motorMania": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "motorMania.default",
+        "unlockProduct": "motorMania_default"
+      },
+      "id": "motorMania",
+      "priority": 289,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "motorMania.doubleJump",
+            "unlockProduct": "motorMania_doubleJump"
+          }
+        },
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "motorMania.lowrider",
+            "unlockProduct": "motorMania_lowrider"
+          }
+        }
+      ]
+    },
+    "naga": {
+      "defaultVariation": {
+        "description": "boards.common.bali",
+        "powerType": "None",
+        "referenceId": "naga.default",
+        "unlockProduct": "naga_default"
+      },
+      "id": "naga",
+      "priority": 62,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "neoseoul": {
+      "defaultVariation": {
+        "description": "boards.common.seoul",
+        "powerType": "DoubleJump",
+        "referenceId": "neoseoul.default",
+        "unlockProduct": "neoseoul_default"
+      },
+      "id": "neoseoul",
+      "priority": 181,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "nflpaBarkley": {
+      "defaultVariation": {
+        "description": "boards.common.nflpaboard",
+        "powerType": "None",
+        "referenceId": "nflpaBarkley.default",
+        "unlockProduct": "nflpaBarkley_default"
+      },
+      "id": "nflpaBarkley",
+      "priority": 114,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "nflpaBeckham": {
+      "defaultVariation": {
+        "description": "boards.common.nflpaboard",
+        "powerType": "None",
+        "referenceId": "nflpaBeckham.default",
+        "unlockProduct": "nflpaBeckham_default"
+      },
+      "id": "nflpaBeckham",
+      "priority": 115,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "nflpaBrady": {
+      "defaultVariation": {
+        "description": "boards.common.nflpaboard",
+        "powerType": "None",
+        "referenceId": "nflpaBrady.default",
+        "unlockProduct": "nflpaBrady_default"
+      },
+      "id": "nflpaBrady",
+      "priority": 116,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "nflpaJackson": {
+      "defaultVariation": {
+        "description": "boards.common.nflpaboard",
+        "powerType": "None",
+        "referenceId": "nflpaJackson.default",
+        "unlockProduct": "nflpaJackson_default"
+      },
+      "id": "nflpaJackson",
+      "priority": 117,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "nflpaMahomes": {
+      "defaultVariation": {
+        "description": "boards.common.nflpaboard",
+        "powerType": "None",
+        "referenceId": "nflpaMahomes.default",
+        "unlockProduct": "nflpaMahomes_default"
+      },
+      "id": "nflpaMahomes",
+      "priority": 118,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "nflpaPrescott": {
+      "defaultVariation": {
+        "description": "boards.common.nflpaboard",
+        "powerType": "None",
+        "referenceId": "nflpaPrescott.default",
+        "unlockProduct": "nflpaPrescott_default"
+      },
+      "id": "nflpaPrescott",
+      "priority": 119,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "nightlute": {
+      "defaultVariation": {
+        "description": "boards.common.luoyang",
+        "powerType": "None",
+        "referenceId": "nightlute.default",
+        "unlockProduct": "nightlute_default"
+      },
+      "id": "nightlute",
+      "priority": 159,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "nightlute.highSpeed",
+            "unlockProduct": "nightlute_highSpeed"
+          }
+        }
+      ]
+    },
+    "oldDusty": {
+      "defaultVariation": {
+        "description": "boards.common.arabia",
+        "powerType": "None",
+        "referenceId": "oldDusty.default",
+        "unlockProduct": "oldDusty_default"
+      },
+      "id": "oldDusty",
+      "priority": 63,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFF00",
+            "iconForeground": "#F8D052FF",
+            "overrideIcon": "icon_upgrade_dust_trail",
+            "powerType": "Vanity",
+            "referenceId": "oldDusty.trail",
+            "unlockProduct": "oldDusty_trail"
+          }
+        }
+      ]
+    },
+    "orni": {
+      "defaultVariation": {
+        "description": "boards.common.venice",
+        "powerType": "None",
+        "referenceId": "orni.default",
+        "unlockProduct": "orni_default"
+      },
+      "id": "orni",
+      "priority": 64,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "orni.glider",
+            "unlockProduct": "orni_glider"
+          }
+        }
+      ]
+    },
+    "outback": {
+      "defaultVariation": {
+        "description": "boards.common.sydney",
+        "powerType": "None",
+        "referenceId": "outback.default",
+        "unlockProduct": "outback_default"
+      },
+      "id": "outback",
+      "priority": 65,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "override": {
+      "defaultVariation": {
+        "description": "boards.common.luoyang",
+        "powerType": "StayLow",
+        "referenceId": "override.default",
+        "unlockProduct": "override_default"
+      },
+      "id": "override",
+      "priority": 251,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "paintPalette": {
+      "defaultVariation": {
+        "description": "boards.common.paris",
+        "powerType": "None",
+        "referenceId": "paintPalette.default",
+        "unlockProduct": "paintPalette_default"
+      },
+      "id": "paintPalette",
+      "priority": 136,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "panda": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "panda.default",
+        "unlockProduct": "panda_default"
+      },
+      "id": "panda",
+      "priority": 66,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "parasol": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "parasol.default",
+        "unlockProduct": "parasol_default"
+      },
+      "id": "parasol",
+      "priority": 67,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "pathfinder": {
+      "defaultVariation": {
+        "description": "boards.common.vancouver",
+        "powerType": "SuperSpeed",
+        "referenceId": "pathfinder.default",
+        "unlockProduct": "pathfinder_default"
+      },
+      "id": "pathfinder",
+      "priority": 241,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "pedal": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "pedal.default",
+        "unlockProduct": "pedal_default"
+      },
+      "id": "pedal",
+      "priority": 68,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "perfectoplasma": {
+      "defaultVariation": {
+        "description": "boards.common.hollywood",
+        "powerType": "None",
+        "referenceId": "perfectoplasma.default",
+        "unlockProduct": "perfectoplasma_default"
+      },
+      "id": "perfectoplasma",
+      "priority": 305,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "perfectoplasma.highSpeed",
+            "unlockProduct": "perfectoplasma_highSpeed"
+          }
+        }
+      ]
+    },
+    "phantom": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "phantom.default",
+        "unlockProduct": "phantom_default"
+      },
+      "id": "phantom",
+      "priority": 69,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "teleport",
+          "variation": {
+            "powerType": "ZapSideways",
+            "referenceId": "phantom.teleport",
+            "unlockProduct": "phantom_teleport"
+          }
+        }
+      ]
+    },
+    "pieceOfCake": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "pieceOfCake.default",
+        "unlockProduct": "pieceOfCake_default"
+      },
+      "id": "pieceOfCake",
+      "priority": 291,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "pieExpress": {
+      "defaultVariation": {
+        "description": "boards.common.newyork",
+        "powerType": "None",
+        "referenceId": "pieExpress.default",
+        "unlockProduct": "pieExpress_default"
+      },
+      "id": "pieExpress",
+      "priority": 299,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "pieExpress.doubleJump",
+            "unlockProduct": "pieExpress_doubleJump"
+          }
+        }
+      ]
+    },
+    "pitchdark": {
+      "defaultVariation": {
+        "description": "boards.common.hauntedhood",
+        "powerType": "None",
+        "referenceId": "pitchdark.default",
+        "unlockProduct": "pitchdark_default"
+      },
+      "id": "pitchdark",
+      "priority": 236,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "pitchdark.highSpeed",
+            "unlockProduct": "pitchdark_highSpeed"
+          }
+        }
+      ]
+    },
+    "pixelHeart": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "pixelHeart.default",
+        "unlockProduct": "pixelHeart_default"
+      },
+      "id": "pixelHeart",
+      "priority": 70,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "pixelhoverboard": {
+      "defaultVariation": {
+        "description": "boards.common.subwayclassic",
+        "powerType": "None",
+        "referenceId": "pixelhoverboard.default",
+        "unlockProduct": "pixelhoverboard_default"
+      },
+      "id": "pixelhoverboard",
+      "priority": 213,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "pixelhoverboard.lowrider",
+            "unlockProduct": "pixelhoverboard_lowrider"
+          }
+        }
+      ]
+    },
+    "pixelPerfect": {
+      "defaultVariation": {
+        "description": "boards.common.ireland",
+        "powerType": "None",
+        "referenceId": "pixelPerfect.default",
+        "unlockProduct": "pixelPerfect_default"
+      },
+      "id": "pixelPerfect",
+      "priority": 318,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "pixelPerfect.doubleJump",
+            "unlockProduct": "pixelPerfect_doubleJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "pixelPerfect.glider",
+            "unlockProduct": "pixelPerfect_glider"
+          }
+        }
+      ]
+    },
+    "prickly": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "prickly.default",
+        "unlockProduct": "prickly_default"
+      },
+      "id": "prickly",
+      "priority": 71,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "principalsNightmare": {
+      "defaultVariation": {
+        "description": "boards.common.oxford",
+        "powerType": "None",
+        "referenceId": "principalsNightmare.default",
+        "unlockProduct": "principalsNightmare_default"
+      },
+      "id": "principalsNightmare",
+      "priority": 282,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "principalsNightmare.highSpeed",
+            "unlockProduct": "principalsNightmare_highSpeed"
+          }
+        }
+      ]
+    },
+    "pumpkin": {
+      "defaultVariation": {
+        "description": "boards.common.neworleans",
+        "powerType": "None",
+        "referenceId": "pumpkin.default",
+        "unlockProduct": "pumpkin_default"
+      },
+      "id": "pumpkin",
+      "priority": 72,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "punk": {
+      "defaultVariation": {
+        "description": "boards.common.edinburgh",
+        "powerType": "None",
+        "referenceId": "punk.default",
+        "unlockProduct": "punk_default"
+      },
+      "id": "punk",
+      "priority": 73,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "purplespin": {
+      "defaultVariation": {
+        "description": "boards.common.mumbai",
+        "powerType": "None",
+        "referenceId": "purplespin.default",
+        "unlockProduct": "purplespin_default"
+      },
+      "id": "purplespin",
+      "priority": 258,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "purplespin.superJump",
+            "unlockProduct": "purplespin_superJump"
+          }
+        },
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "purplespin.lowrider",
+            "unlockProduct": "purplespin_lowrider"
+          }
+        }
+      ]
+    },
+    "queenofhearts": {
+      "defaultVariation": {
+        "description": "boards.common.lasvegas",
+        "powerType": "None",
+        "referenceId": "queenofhearts.default",
+        "unlockProduct": "queenofhearts_default"
+      },
+      "id": "queenofhearts",
+      "priority": 138,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "rabbitRacer": {
+      "defaultVariation": {
+        "description": "boards.common.subwayclassic",
+        "powerType": "None",
+        "referenceId": "rabbitRacer.default",
+        "unlockProduct": "rabbitRacer_default"
+      },
+      "id": "rabbitRacer",
+      "priority": 279,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "rabbitRacer.doubleJump",
+            "unlockProduct": "rabbitRacer_doubleJump"
+          }
+        }
+      ]
+    },
+    "radiantrider": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "radiantrider.default",
+        "unlockProduct": "radiantrider_default"
+      },
+      "id": "radiantrider",
+      "priority": 203,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "raggedyrunner": {
+      "defaultVariation": {
+        "description": "boards.common.neworleans",
+        "powerType": "None",
+        "referenceId": "raggedyrunner.default",
+        "unlockProduct": "raggedyrunner_default"
+      },
+      "id": "raggedyrunner",
+      "priority": 227,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "raggedyrunner.superJump",
+            "unlockProduct": "raggedyrunner_superJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "raggedyrunner.glider",
+            "unlockProduct": "raggedyrunner_glider"
+          }
+        }
+      ]
+    },
+    "raveRider": {
+      "defaultVariation": {
+        "description": "boards.common.rivals",
+        "powerType": "None",
+        "referenceId": "raveRider.default",
+        "unlockProduct": "raveRider_default"
+      },
+      "id": "raveRider",
+      "priority": 178,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "raveRider.doubleJump",
+            "unlockProduct": "raveRider_doubleJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "raveRider.glider",
+            "unlockProduct": "raveRider_glider"
+          }
+        }
+      ]
+    },
+    "ray": {
+      "defaultVariation": {
+        "description": "boards.common.sydney",
+        "powerType": "None",
+        "referenceId": "ray.default",
+        "unlockProduct": "ray_default"
+      },
+      "id": "ray",
+      "priority": 74,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "redvelvet": {
+      "defaultVariation": {
+        "description": "boards.common.greece",
+        "powerType": "None",
+        "referenceId": "redvelvet.default",
+        "unlockProduct": "redvelvet_default"
+      },
+      "id": "redvelvet",
+      "priority": 195,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "renegade": {
+      "defaultVariation": {
+        "description": "boards.common.venicebeach",
+        "powerType": "None",
+        "referenceId": "renegade.default",
+        "unlockProduct": "renegade_default"
+      },
+      "id": "renegade",
+      "priority": 75,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "retroorange": {
+      "defaultVariation": {
+        "description": "boards.common.seoul",
+        "powerType": "DoubleJump",
+        "referenceId": "retroorange.default",
+        "unlockProduct": "retroorange_default"
+      },
+      "id": "retroorange",
+      "priority": 182,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "retroWave": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "retroWave.default",
+        "unlockProduct": "retroWave_default"
+      },
+      "id": "retroWave",
+      "priority": 76,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "rickshaw": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "rickshaw.default",
+        "unlockProduct": "rickshaw_default"
+      },
+      "id": "rickshaw",
+      "priority": 77,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "riskyride": {
+      "defaultVariation": {
+        "description": "boards.common.hollywood",
+        "powerType": "None",
+        "referenceId": "riskyride.default",
+        "unlockProduct": "riskyride_default"
+      },
+      "id": "riskyride",
+      "priority": 218,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "riskyride.highSpeed",
+            "unlockProduct": "riskyride_highSpeed"
+          }
+        },
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "riskyride.lowrider",
+            "unlockProduct": "riskyride_lowrider"
+          }
+        }
+      ]
+    },
+    "roadRage": {
+      "defaultVariation": {
+        "description": "boards.common.hollywood",
+        "powerType": "None",
+        "referenceId": "roadRage.default",
+        "unlockProduct": "roadRage_default"
+      },
+      "id": "roadRage",
+      "priority": 306,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "roaringheart": {
+      "defaultVariation": {
+        "description": "boards.common.greece",
+        "powerType": "None",
+        "referenceId": "roaringheart.default",
+        "unlockProduct": "roaringheart_default"
+      },
+      "id": "roaringheart",
+      "priority": 197,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "Speed",
+            "referenceId": "roaringheart.highSpeed",
+            "unlockProduct": "roaringheart_highSpeed"
+          }
+        },
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "roaringheart.doubleJump",
+            "unlockProduct": "roaringheart_doubleJump"
+          }
+        }
+      ]
+    },
+    "roarsome": {
+      "defaultVariation": {
+        "description": "boards.common.rio",
+        "powerType": "SmoothDrift",
+        "referenceId": "roarsome.default",
+        "unlockProduct": "roarsome_default"
+      },
+      "id": "roarsome",
+      "priority": 255,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "roarsome.highSpeed",
+            "unlockProduct": "roarsome_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "roarsome.superJump",
+            "unlockProduct": "roarsome_superJump"
+          }
+        }
+      ]
+    },
+    "rocket": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "rocket.default",
+        "unlockProduct": "rocket_default"
+      },
+      "id": "rocket",
+      "priority": 78,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFF00",
+            "iconForeground": "#FF7B00FF",
+            "overrideIcon": "icon_upgrade_spark_trail",
+            "powerType": "Vanity",
+            "referenceId": "rocket.trail",
+            "unlockProduct": "rocket_trail"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "rocket.highSpeed",
+            "unlockProduct": "rocket_highSpeed"
+          }
+        }
+      ]
+    },
+    "rocknriley": {
+      "defaultVariation": {
+        "description": "boards.common.sanfrancisco",
+        "powerType": "None",
+        "referenceId": "rocknriley.default",
+        "unlockProduct": "rocknriley_default"
+      },
+      "id": "rocknriley",
+      "priority": 216,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "rocknriley.highSpeed",
+            "unlockProduct": "rocknriley_highSpeed"
+          }
+        }
+      ]
+    },
+    "rockstar": {
+      "defaultVariation": {
+        "description": "boards.common.berlin",
+        "powerType": "None",
+        "referenceId": "rockstar.default",
+        "unlockProduct": "rockstar_default"
+      },
+      "id": "rockstar",
+      "priority": 79,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "roll&Race": {
+      "defaultVariation": {
+        "description": "boards.common.washington",
+        "powerType": "None",
+        "referenceId": "roll&Race.default",
+        "unlockProduct": "roll&Race_default"
+      },
+      "id": "roll&Race",
+      "priority": 276,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "roll&Race.highSpeed",
+            "unlockProduct": "roll&Race_highSpeed"
+          }
+        }
+      ]
+    },
+    "roller": {
+      "defaultVariation": {
+        "description": "boards.common.lasvegas",
+        "powerType": "None",
+        "referenceId": "roller.default",
+        "unlockProduct": "roller_default"
+      },
+      "id": "roller",
+      "priority": 80,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "rollsRabbit": {
+      "defaultVariation": {
+        "description": "boards.common.oxford",
+        "powerType": "None",
+        "referenceId": "rollsRabbit.default",
+        "unlockProduct": "rollsRabbit_default"
+      },
+      "id": "rollsRabbit",
+      "priority": 148,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "rose": {
+      "defaultVariation": {
+        "description": "boards.common.paris",
+        "powerType": "None",
+        "referenceId": "rose.default",
+        "unlockProduct": "rose_default"
+      },
+      "id": "rose",
+      "priority": 81,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "roto": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "roto.default",
+        "unlockProduct": "roto_default"
+      },
+      "id": "roto",
+      "priority": 82,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "rudy": {
+      "defaultVariation": {
+        "description": "common.holidayspecial.default",
+        "powerType": "None",
+        "referenceId": "rudy.default",
+        "unlockProduct": "rudy_default"
+      },
+      "id": "rudy",
+      "priority": 83,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sakarBlueIce": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "sakarBlueIce.default",
+        "unlockProduct": "sakarBlueIce_default"
+      },
+      "id": "sakarBlueIce",
+      "priority": 120,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sakarCrew": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "sakarCrew.default",
+        "unlockProduct": "sakarCrew_default"
+      },
+      "id": "sakarCrew",
+      "priority": 121,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sakarCrewCrush": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "sakarCrewCrush.default",
+        "unlockProduct": "sakarCrewCrush_default"
+      },
+      "id": "sakarCrewCrush",
+      "priority": 122,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sakarSurfSpray": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "sakarSurfSpray.default",
+        "unlockProduct": "sakarSurfSpray_default"
+      },
+      "id": "sakarSurfSpray",
+      "priority": 123,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sakarWildStyle": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "sakarWildStyle.default",
+        "unlockProduct": "sakarWildStyle_default"
+      },
+      "id": "sakarWildStyle",
+      "priority": 124,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sakura": {
+      "defaultVariation": {
+        "description": "boards.common.tokyo",
+        "powerType": "None",
+        "referenceId": "sakura.default",
+        "unlockProduct": "sakura_default"
+      },
+      "id": "sakura",
+      "priority": 137,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "scarab": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "scarab.default",
+        "unlockProduct": "scarab_default"
+      },
+      "id": "scarab",
+      "priority": 84,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "scarab.glider",
+            "unlockProduct": "scarab_glider"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "scarab.highSpeed",
+            "unlockProduct": "scarab_highSpeed"
+          }
+        }
+      ]
+    },
+    "scifly": {
+      "defaultVariation": {
+        "description": "boards.common.hauntedhood",
+        "powerType": "SuperSpeed",
+        "referenceId": "scifly.default",
+        "unlockProduct": "scifly_default"
+      },
+      "id": "scifly",
+      "priority": 238,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "scifly.superJump",
+            "unlockProduct": "scifly_superJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "scifly.glider",
+            "unlockProduct": "scifly_glider"
+          }
+        }
+      ]
+    },
+    "scoot": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "scoot.default",
+        "unlockProduct": "scoot_default"
+      },
+      "id": "scoot",
+      "priority": 85,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "teleport",
+          "variation": {
+            "powerType": "ZapSideways",
+            "referenceId": "scoot.teleport",
+            "unlockProduct": "scoot_teleport"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "scoot.highSpeed",
+            "unlockProduct": "scoot_highSpeed"
+          }
+        }
+      ]
+    },
+    "scratchy": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "scratchy.default",
+        "unlockProduct": "scratchy_default"
+      },
+      "id": "scratchy",
+      "priority": 86,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "scroll": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "scroll.default",
+        "unlockProduct": "scroll_default"
+      },
+      "id": "scroll",
+      "priority": 87,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "secretSociety": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "secretSociety.default",
+        "unlockProduct": "secretSociety_default"
+      },
+      "id": "secretSociety",
+      "priority": 127,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sevenseas": {
+      "defaultVariation": {
+        "description": "boards.common.copenhagen",
+        "powerType": "None",
+        "referenceId": "sevenseas.default",
+        "unlockProduct": "sevenseas_default"
+      },
+      "id": "sevenseas",
+      "priority": 269,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "sevenseas.lowrider",
+            "unlockProduct": "sevenseas_lowrider"
+          }
+        }
+      ]
+    },
+    "shamrockshebang": {
+      "defaultVariation": {
+        "description": "boards.common.ireland",
+        "powerType": "None",
+        "referenceId": "shamrockshebang.default",
+        "unlockProduct": "shamrockshebang_default"
+      },
+      "id": "shamrockshebang",
+      "priority": 201,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "shamrockshebang.glider",
+            "unlockProduct": "shamrockshebang_glider"
+          }
+        }
+      ]
+    },
+    "sharpeed": {
+      "defaultVariation": {
+        "description": "boards.common.rivals",
+        "powerType": "None",
+        "referenceId": "sharpeed.default",
+        "unlockProduct": "sharpeed_default"
+      },
+      "id": "sharpeed",
+      "priority": 186,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "sharpeed.superJump",
+            "unlockProduct": "sharpeed_superJump"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "sharpeed.highSpeed",
+            "unlockProduct": "sharpeed_highSpeed"
+          }
+        }
+      ]
+    },
+    "shinSupreme": {
+      "defaultVariation": {
+        "description": "boards.common.mexico",
+        "powerType": "None",
+        "referenceId": "shinSupreme.default",
+        "unlockProduct": "shinSupreme_default"
+      },
+      "id": "shinSupreme",
+      "priority": 293,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "shinSupreme.doubleJump",
+            "unlockProduct": "shinSupreme_doubleJump"
+          }
+        }
+      ]
+    },
+    "shinysurprise": {
+      "defaultVariation": {
+        "description": "boards.common.vienna",
+        "powerType": "SuperJump",
+        "referenceId": "shinysurprise.default",
+        "unlockProduct": "shinysurprise_default"
+      },
+      "id": "shinysurprise",
+      "priority": 248,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "shuttle": {
+      "defaultVariation": {
+        "description": "boards.common.houston",
+        "powerType": "None",
+        "referenceId": "shuttle.default",
+        "unlockProduct": "shuttle_default"
+      },
+      "id": "shuttle",
+      "priority": 132,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "skeletuna": {
+      "defaultVariation": {
+        "description": "boards.common.hauntedhood",
+        "powerType": "SuperSpeed",
+        "referenceId": "skeletuna.default",
+        "unlockProduct": "skeletuna_default"
+      },
+      "id": "skeletuna",
+      "priority": 237,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "skullFire": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "skullFire.default",
+        "unlockProduct": "skullFire_default"
+      },
+      "id": "skullFire",
+      "priority": 88,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "skullFire.doubleJump",
+            "unlockProduct": "skullFire_doubleJump"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "skullFire.highSpeed",
+            "unlockProduct": "skullFire_highSpeed"
+          }
+        }
+      ]
+    },
+    "skyrocket": {
+      "defaultVariation": {
+        "description": "boards.common.shenzhen",
+        "powerType": "None",
+        "referenceId": "skyrocket.default",
+        "unlockProduct": "skyrocket_default"
+      },
+      "id": "skyrocket",
+      "priority": 191,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "skyrocket.highSpeed",
+            "unlockProduct": "skyrocket_highSpeed"
+          }
+        },
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "skyrocket.doubleJump",
+            "unlockProduct": "skyrocket_doubleJump"
+          }
+        }
+      ]
+    },
+    "sleigh": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "sleigh.default",
+        "unlockProduct": "sleigh_default"
+      },
+      "id": "sleigh",
+      "priority": 89,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "smokingSlime": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "smokingSlime.default",
+        "unlockProduct": "smokingSlime_default"
+      },
+      "id": "smokingSlime",
+      "priority": 158,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "smokingSlime.highSpeed",
+            "unlockProduct": "smokingSlime_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "smokingSlime.superJump",
+            "unlockProduct": "smokingSlime_superJump"
+          }
+        }
+      ]
+    },
+    "snowCloud": {
+      "defaultVariation": {
+        "description": "common.holidayspecial.default",
+        "powerType": "None",
+        "referenceId": "snowCloud.default",
+        "unlockProduct": "snowcloud_default"
+      },
+      "id": "snowCloud",
+      "priority": 161,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "snowdown": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "snowdown.default",
+        "unlockProduct": "snowdown_default"
+      },
+      "id": "snowdown",
+      "priority": 189,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "snowflake": {
+      "defaultVariation": {
+        "description": "boards.common.london",
+        "powerType": "None",
+        "referenceId": "snowflake.default",
+        "unlockProduct": "snowflake_default"
+      },
+      "id": "snowflake",
+      "priority": 90,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "spaceship": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "spaceship.default",
+        "unlockProduct": "spaceship_default"
+      },
+      "id": "spaceship",
+      "priority": 91,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "speeder": {
+      "defaultVariation": {
+        "description": "boards.common.monaco",
+        "powerType": "Speed",
+        "referenceId": "speeder.default",
+        "unlockProduct": "speeder_default"
+      },
+      "id": "speeder",
+      "priority": 92,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "splash": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "splash.default",
+        "unlockProduct": "splash_default"
+      },
+      "id": "splash",
+      "priority": 93,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sportysummer": {
+      "defaultVariation": {
+        "description": "boards.common.paris",
+        "powerType": "None",
+        "referenceId": "sportysummer.default",
+        "unlockProduct": "sportysummer_default"
+      },
+      "id": "sportysummer",
+      "priority": 221,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "spring": {
+      "defaultVariation": {
+        "description": "boards.common.vancouver",
+        "powerType": "None",
+        "referenceId": "spring.default",
+        "unlockProduct": "spring_default"
+      },
+      "id": "spring",
+      "priority": 147,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "ssskater": {
+      "defaultVariation": {
+        "description": "boards.common.greece",
+        "powerType": "None",
+        "referenceId": "ssskater.default",
+        "unlockProduct": "ssskater_default"
+      },
+      "id": "ssskater",
+      "priority": 155,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "stallion": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "stallion.default",
+        "unlockProduct": "stallion_default"
+      },
+      "id": "stallion",
+      "priority": 94,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFF00",
+            "iconForeground": "#FFA700FF",
+            "overrideIcon": "icon_upgrade_horseshoe_trail",
+            "powerType": "Vanity",
+            "referenceId": "stallion.trail",
+            "unlockProduct": "stallion_trail"
+          }
+        },
+        {
+          "id": "jumper",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "stallion.jumper",
+            "unlockProduct": "stallion_jumper"
+          }
+        }
+      ]
+    },
+    "standingovation": {
+      "defaultVariation": {
+        "description": "boards.common.hollywood",
+        "powerType": "SuperSpeed",
+        "referenceId": "standingovation.default",
+        "unlockProduct": "standingovation_default"
+      },
+      "id": "standingovation",
+      "priority": 220,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "starboard": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "starboard.default",
+        "unlockProduct": "starboard_default"
+      },
+      "id": "starboard",
+      "priority": 95,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFF00",
+            "iconForeground": "#FF6D00FF",
+            "overrideIcon": "icon_upgrade_star_trail",
+            "powerType": "Vanity",
+            "referenceId": "starboard.trail",
+            "unlockProduct": "starboard_trail"
+          }
+        },
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "starboard.doubleJump",
+            "unlockProduct": "starboard_doubleJump"
+          }
+        }
+      ]
+    },
+    "starcruiser": {
+      "defaultVariation": {
+        "description": "boards.common.houston",
+        "powerType": "None",
+        "referenceId": "starcruiser.default",
+        "unlockProduct": "starcruiser_default"
+      },
+      "id": "starcruiser",
+      "priority": 96,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "streetgrace": {
+      "defaultVariation": {
+        "description": "boards.common.subwayclassic",
+        "powerType": "SuperSpeed",
+        "referenceId": "streetgrace.default",
+        "unlockProduct": "streetgrace_default"
+      },
+      "id": "streetgrace",
+      "priority": 212,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "streetgrace.doubleJump",
+            "unlockProduct": "streetgrace_doubleJump"
+          }
+        }
+      ]
+    },
+    "streetStyle": {
+      "defaultVariation": {
+        "description": "boards.common.washington",
+        "powerType": "None",
+        "referenceId": "streetStyle.default",
+        "unlockProduct": "streetStyle_default"
+      },
+      "id": "streetStyle",
+      "priority": 275,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "lowrider",
+          "variation": {
+            "powerType": "StayLow",
+            "referenceId": "streetStyle.lowrider",
+            "unlockProduct": "streetStyle_lowrider"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "streetStyle.superJump",
+            "unlockProduct": "streetStyle_superJump"
+          }
+        }
+      ]
+    },
+    "suitcasesaga": {
+      "defaultVariation": {
+        "description": "boards.common.iceland",
+        "powerType": "DoubleJump",
+        "referenceId": "suitcasesaga.default",
+        "unlockProduct": "suitcasesaga_default"
+      },
+      "id": "suitcasesaga",
+      "priority": 244,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sunnysailor": {
+      "defaultVariation": {
+        "description": "boards.common.sanfrancisco",
+        "powerType": "None",
+        "referenceId": "sunnysailor.default",
+        "unlockProduct": "sunnysailor_default"
+      },
+      "id": "sunnysailor",
+      "priority": 217,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "sunnysailor.superJump",
+            "unlockProduct": "sunnysailor_superJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "sunnysailor.glider",
+            "unlockProduct": "sunnysailor_glider"
+          }
+        }
+      ]
+    },
+    "sunnySideUp": {
+      "defaultVariation": {
+        "description": "boards.common.ireland",
+        "powerType": "None",
+        "referenceId": "sunnySideUp.default",
+        "unlockProduct": "sunnySideUp_default"
+      },
+      "id": "sunnySideUp",
+      "priority": 317,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sunset": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "sunset.default",
+        "unlockProduct": "sunset_default"
+      },
+      "id": "sunset",
+      "priority": 97,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFFFF",
+            "iconForeground": "#FF25D8FF",
+            "overrideIcon": "icon_upgrade_pink_trail",
+            "powerType": "Vanity",
+            "referenceId": "sunset.trail",
+            "unlockProduct": "sunset_trail"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "sunset.glider",
+            "unlockProduct": "sunset_glider"
+          }
+        }
+      ]
+    },
+    "superhero": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "superhero.default",
+        "unlockProduct": "superhero_default"
+      },
+      "id": "superhero",
+      "priority": 98,
+      "showDescriptionLabel": false,
+      "upgrades": [
+        {
+          "id": "teleport",
+          "variation": {
+            "powerType": "ZapSideways",
+            "referenceId": "superhero.teleport",
+            "unlockProduct": "superhero_teleport"
+          }
+        },
+        {
+          "id": "jumper",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "superhero.jumper",
+            "unlockProduct": "superhero_jumper"
+          }
+        }
+      ]
+    },
+    "superSurfer": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "SuperSpeed",
+        "referenceId": "superSurfer.default",
+        "unlockProduct": "superSurfer_default"
+      },
+      "id": "superSurfer",
+      "priority": 150,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sweetchili": {
+      "defaultVariation": {
+        "description": "boards.common.tokyo",
+        "powerType": "None",
+        "referenceId": "sweetchili.default",
+        "unlockProduct": "sweetchili_default"
+      },
+      "id": "sweetchili",
+      "priority": 177,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "sweetheart": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "sweetheart.default",
+        "unlockProduct": "sweetheart_default"
+      },
+      "id": "sweetheart",
+      "priority": 99,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "tagger": {
+      "defaultVariation": {
+        "description": "boards.common.chicago",
+        "powerType": "DoubleJump",
+        "referenceId": "tagger.default",
+        "unlockProduct": "tagger_default"
+      },
+      "id": "tagger",
+      "priority": 169,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "teatimer": {
+      "defaultVariation": {
+        "description": "boards.common.marrakesh",
+        "powerType": "None",
+        "referenceId": "teatimer.default",
+        "unlockProduct": "teatimer_default"
+      },
+      "id": "teatimer",
+      "priority": 206,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "teatimer.highSpeed",
+            "unlockProduct": "teatimer_highSpeed"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "teatimer.glider",
+            "unlockProduct": "teatimer_glider"
+          }
+        }
+      ]
+    },
+    "teddy": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "None",
+        "referenceId": "teddy.default",
+        "unlockProduct": "teddy_default"
+      },
+      "id": "teddy",
+      "priority": 100,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "teleporter": {
+      "defaultVariation": {
+        "powerType": "ZapSideways",
+        "referenceId": "teleporter.default",
+        "unlockProduct": "teleporter_default"
+      },
+      "id": "teleporter",
+      "priority": 101,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "theDelyreious": {
+      "defaultVariation": {
+        "description": "boards.common.greece",
+        "powerType": "None",
+        "referenceId": "theDelyreious.default",
+        "unlockProduct": "theDelyreious_default"
+      },
+      "id": "theDelyreious",
+      "priority": 284,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "theDelyreious.superJump",
+            "unlockProduct": "theDelyreious_superJump"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "theDelyreious.highSpeed",
+            "unlockProduct": "theDelyreious_highSpeed"
+          }
+        }
+      ]
+    },
+    "theGreenFlame": {
+      "defaultVariation": {
+        "description": "boards.common.london",
+        "powerType": "None",
+        "referenceId": "theGreenFlame.default",
+        "unlockProduct": "theGreenFlame_default"
+      },
+      "id": "theGreenFlame",
+      "priority": 310,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "theGreenFlame.glider",
+            "unlockProduct": "theGreenFlame_glider"
+          }
+        },
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "theGreenFlame.doubleJump",
+            "unlockProduct": "theGreenFlame_doubleJump"
+          }
+        }
+      ]
+    },
+    "thunderbolt": {
+      "defaultVariation": {
+        "description": "boards.common.greece",
+        "powerType": "None",
+        "referenceId": "thunderbolt.default",
+        "unlockProduct": "thunderbolt_default"
+      },
+      "id": "thunderbolt",
+      "priority": 102,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "tiki": {
+      "defaultVariation": {
+        "description": "boards.common.hawaii",
+        "powerType": "None",
+        "referenceId": "tiki.default",
+        "unlockProduct": "tiki_default"
+      },
+      "id": "tiki",
+      "priority": 103,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "torito": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "torito.default",
+        "unlockProduct": "torito_default"
+      },
+      "id": "torito",
+      "priority": 140,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "toucan": {
+      "defaultVariation": {
+        "description": "boards.common.rio",
+        "powerType": "None",
+        "referenceId": "toucan.default",
+        "unlockProduct": "toucan_default"
+      },
+      "id": "toucan",
+      "priority": 104,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "trespasser": {
+      "defaultVariation": {
+        "description": "boards.common.osaka",
+        "powerType": "None",
+        "referenceId": "trespasser.default",
+        "unlockProduct": "trespasser_default"
+      },
+      "id": "trespasser",
+      "priority": 265,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "trespasser.superJump",
+            "unlockProduct": "trespasser_superJump"
+          }
+        },
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "trespasser.glider",
+            "unlockProduct": "trespasser_glider"
+          }
+        }
+      ]
+    },
+    "trickster": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "SuperJump",
+        "referenceId": "trickster.default",
+        "unlockProduct": "trickster_default"
+      },
+      "id": "trickster",
+      "priority": 152,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "tumi": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "tumi.default",
+        "unlockProduct": "tumi_default"
+      },
+      "id": "tumi",
+      "priority": 105,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "teleport",
+          "variation": {
+            "powerType": "ZapSideways",
+            "referenceId": "tumi.teleport",
+            "unlockProduct": "tumi_teleport"
+          }
+        }
+      ]
+    },
+    "turboLove": {
+      "defaultVariation": {
+        "description": "boards.common.winterxtreme",
+        "powerType": "None",
+        "referenceId": "turboLove.default",
+        "unlockProduct": "turboLove_default"
+      },
+      "id": "turboLove",
+      "priority": 308,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "turboLove.doubleJump",
+            "unlockProduct": "turboLove_doubleJump"
+          }
+        }
+      ]
+    },
+    "turbostump": {
+      "defaultVariation": {
+        "description": "boards.common.neworleans",
+        "powerType": "None",
+        "referenceId": "turbostump.default",
+        "unlockProduct": "turbostump_default"
+      },
+      "id": "turbostump",
+      "priority": 226,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "turbostump.highSpeed",
+            "unlockProduct": "turbostump_highSpeed"
+          }
+        }
+      ]
+    },
+    "turtle": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "turtle.default",
+        "unlockProduct": "turtle_default"
+      },
+      "id": "turtle",
+      "priority": 106,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "trail",
+          "variation": {
+            "iconBackground": "#FFFFFF00",
+            "iconForeground": "#5DF4FFFF",
+            "overrideIcon": "icon_upgrade_pink_trail",
+            "powerType": "Vanity",
+            "referenceId": "turtle.trail",
+            "unlockProduct": "turtle_trail"
+          }
+        }
+      ]
+    },
+    "ukulele": {
+      "defaultVariation": {
+        "description": "boards.common.hawaii",
+        "powerType": "None",
+        "referenceId": "ukulele.default",
+        "unlockProduct": "ukulele_default"
+      },
+      "id": "ukulele",
+      "priority": 107,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "uprock": {
+      "defaultVariation": {
+        "description": "boards.common.newyork",
+        "powerType": "None",
+        "referenceId": "uprock.default",
+        "unlockProduct": "uprock_default"
+      },
+      "id": "uprock",
+      "priority": 130,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "veggievelocity": {
+      "defaultVariation": {
+        "description": "boards.common.sydney",
+        "powerType": "None",
+        "referenceId": "veggievelocity.default",
+        "unlockProduct": "veggievelocity_default"
+      },
+      "id": "veggievelocity",
+      "priority": 229,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "veggievelocity.highSpeed",
+            "unlockProduct": "veggievelocity_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "veggievelocity.superJump",
+            "unlockProduct": "veggievelocity_superJump"
+          }
+        }
+      ]
+    },
+    "viking": {
+      "defaultVariation": {
+        "description": "boards.common.copenhagen",
+        "powerType": "None",
+        "referenceId": "viking.default",
+        "unlockProduct": "viking_default"
+      },
+      "id": "viking",
+      "priority": 133,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "viperfish": {
+      "defaultVariation": {
+        "description": "boards.common.underwater",
+        "powerType": "SmoothDrift",
+        "referenceId": "viperfish.default",
+        "unlockProduct": "viperfish_default"
+      },
+      "id": "viperfish",
+      "priority": 167,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "waveRider": {
+      "defaultVariation": {
+        "description": "boards.common.sydney",
+        "powerType": "None",
+        "referenceId": "waveRider.default",
+        "unlockProduct": "waveRider_default"
+      },
+      "id": "waveRider",
+      "priority": 108,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "wayfarer": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "wayfarer.default",
+        "unlockProduct": "wayfarer_default"
+      },
+      "id": "wayfarer",
+      "priority": 109,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "glider",
+          "variation": {
+            "powerType": "SmoothDrift",
+            "referenceId": "wayfarer.glider",
+            "unlockProduct": "wayfarer_glider"
+          }
+        }
+      ]
+    },
+    "windglider": {
+      "defaultVariation": {
+        "powerType": "SmoothDrift",
+        "referenceId": "windglider.default",
+        "unlockProduct": "windglider_default"
+      },
+      "id": "windglider",
+      "priority": 110,
+      "showDescriptionLabel": false,
+      "upgrades": []
+    },
+    "winduprocket": {
+      "defaultVariation": {
+        "description": "boards.common.specialboard",
+        "powerType": "SmoothDrift",
+        "referenceId": "winduprocket.default",
+        "unlockProduct": "winduprocket_default"
+      },
+      "id": "winduprocket",
+      "priority": 188,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "woody": {
+      "defaultVariation": {
+        "powerType": "None",
+        "referenceId": "woody.default",
+        "unlockProduct": "woody_default"
+      },
+      "id": "woody",
+      "priority": 111,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "xmas2022": {
+      "defaultVariation": {
+        "description": "common.holidayspecial.default",
+        "powerType": "None",
+        "referenceId": "xmas2022.default",
+        "unlockProduct": "xmas2022_default"
+      },
+      "id": "xmas2022",
+      "priority": 162,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "xtraCool": {
+      "defaultVariation": {
+        "description": "boards.common.winterxtreme",
+        "powerType": "None",
+        "referenceId": "xtraCool.default",
+        "unlockProduct": "xtraCool_default"
+      },
+      "id": "xtraCool",
+      "priority": 309,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "yellowCab": {
+      "defaultVariation": {
+        "description": "boards.common.newyork",
+        "powerType": "None",
+        "referenceId": "yellowCab.default",
+        "unlockProduct": "yellowCab_default"
+      },
+      "id": "yellowCab",
+      "priority": 112,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "yellowsub": {
+      "defaultVariation": {
+        "description": "boards.common.underwater",
+        "powerType": "None",
+        "referenceId": "yellowsub.default",
+        "unlockProduct": "yellowsub_default"
+      },
+      "id": "yellowsub",
+      "priority": 208,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "yellowsub.highSpeed",
+            "unlockProduct": "yellowsub_highSpeed"
+          }
+        },
+        {
+          "id": "superJump",
+          "variation": {
+            "powerType": "SuperJump",
+            "referenceId": "yellowsub.superJump",
+            "unlockProduct": "yellowsub_superJump"
+          }
+        }
+      ]
+    },
+    "youarehere": {
+      "defaultVariation": {
+        "description": "boards.common.copenhagen",
+        "powerType": "None",
+        "referenceId": "youarehere.default",
+        "unlockProduct": "youarehere_default"
+      },
+      "id": "youarehere",
+      "priority": 268,
+      "showDescriptionLabel": true,
+      "upgrades": [
+        {
+          "id": "doubleJump",
+          "variation": {
+            "powerType": "DoubleJump",
+            "referenceId": "youarehere.doubleJump",
+            "unlockProduct": "youarehere_doubleJump"
+          }
+        },
+        {
+          "id": "highSpeed",
+          "variation": {
+            "powerType": "SuperSpeed",
+            "referenceId": "youarehere.highSpeed",
+            "unlockProduct": "youarehere_highSpeed"
+          }
+        }
+      ]
+    },
+    "zapline": {
+      "defaultVariation": {
+        "description": "boards.common.osaka",
+        "powerType": "None",
+        "referenceId": "zapline.default",
+        "unlockProduct": "zapline_default"
+      },
+      "id": "zapline",
+      "priority": 267,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    },
+    "zuperzapper": {
+      "defaultVariation": {
+        "description": "boards.common.birthdayspecial",
+        "powerType": "SuperSpeed",
+        "referenceId": "zuperzapper.default",
+        "unlockProduct": "zuperzapper_default"
+      },
+      "id": "zuperzapper",
+      "priority": 160,
+      "showDescriptionLabel": true,
+      "upgrades": []
+    }
+  },
+  "defaultBoards": {
+    "startingBoards": [
+      "default"
+    ]
+  }
+}

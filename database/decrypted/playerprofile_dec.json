@@ -1,0 +1,869 @@
+{
+  "$schema": "../schema/playerProfile_schema.json",
+  "defaultPlayerNameSegments": {
+    "adjectives": [
+      "Young",
+      "Wonderful",
+      "Winning",
+      "Wholecar",
+      "Touring",
+      "Tagging",
+      "Surfing",
+      "Super",
+      "Styling",
+      "Stellar",
+      "Sliding",
+      "Skating",
+      "Running",
+      "Rolling",
+      "Pixel",
+      "Mystic",
+      "Leaping",
+      "Jumpy",
+      "Joking",
+      "Jakey",
+      "Hovering",
+      "Hip",
+      "Groovy",
+      "Gaming",
+      "Funny",
+      "Friendly",
+      "Fresh",
+      "Festive",
+      "Edgy",
+      "Eclectic",
+      "Diamond",
+      "Dancing",
+      "Cruising",
+      "Cool",
+      "Chill",
+      "Brave",
+      "Artsy",
+      "Airwalk",
+      "Active"
+    ],
+    "names": [
+      "Izzy",
+      "Kareem",
+      "Fresh",
+      "Harumi",
+      "Spike",
+      "Lily",
+      "Callum",
+      "Tricky",
+      "Pins",
+      "Cathy",
+      "Akira",
+      "Jaro",
+      "Dino",
+      "Frank",
+      "Tasha",
+      "Lauren",
+      "Morgan",
+      "Yutani",
+      "Brody",
+      "Jack",
+      "Taha",
+      "Darryl",
+      "Logan",
+      "Yuto",
+      "Skye",
+      "Bonnie",
+      "Hasina",
+      "Koral",
+      "Snowy",
+      "Tagbot",
+      "Jamie",
+      "Jolien",
+      "Wayne",
+      "Carmen",
+      "George",
+      "Jake",
+      "Mimi",
+      "Olivia",
+      "Amira",
+      "Mala",
+      "Zuri",
+      "Lucy",
+      "Marco",
+      "Rabbit",
+      "Trym",
+      "Mina",
+      "Sofia",
+      "King",
+      "Frutti",
+      "Nikos",
+      "Ramona",
+      "Stella",
+      "Dragon",
+      "Moira",
+      "Meggan",
+      "Ming",
+      "Jenny",
+      "Ella",
+      "Edison",
+      "Zayn",
+      "Freya",
+      "Rosa",
+      "Tony",
+      "Finn",
+      "Nina",
+      "Salma",
+      "Philip",
+      "Nick",
+      "Diego",
+      "Alfie",
+      "Carlos",
+      "Azura",
+      "Noel",
+      "Alicia",
+      "Ozzy",
+      "Rain",
+      "Astra",
+      "Hugo",
+      "Kedi",
+      "Lucky",
+      "Lana",
+      "Manny",
+      "Noon",
+      "Teabot",
+      "Audrey",
+      "Leif",
+      "Dylan",
+      "Hamza",
+      "Maeko",
+      "Bjarki",
+      "Eddy",
+      "Faiza",
+      "Riley",
+      "Coco",
+      "Ginger",
+      "Lamar",
+      "Odell",
+      "Sindri",
+      "Bruno",
+      "Malik",
+      "Tutti",
+      "Pink",
+      "Ruhi",
+      "Cleo",
+      "Buzz",
+      "Andy",
+      "Alia",
+      "Alex",
+      "Alba",
+      "Aina",
+      "Zoe",
+      "Tom",
+      "Sun",
+      "Rin",
+      "Rex",
+      "Qin",
+      "Mei",
+      "Liu",
+      "Leo",
+      "Lee",
+      "Kim",
+      "Jia",
+      "Jay",
+      "Hou",
+      "Dak",
+      "Amy"
+    ]
+  },
+  "defaultProfileItems": {
+    "firstIAPPortraitId": "boombot_portrait",
+    "startingBackgrounds": [
+      "default_background"
+    ],
+    "startingFrames": [
+      "default_frame"
+    ],
+    "startingPortraits": [
+      "jake_portrait",
+      "tricky_portrait",
+      "fresh_portrait",
+      "yutani_portrait",
+      "spike_portrait",
+      "ella_portrait",
+      "king_portrait",
+      "tagbot_portrait"
+    ]
+  },
+  "leveledItems": {
+    "frames": {
+      "subway_pvp_frame": {
+        "tiers": [
+          {
+            "add": "pvp_leaderboard_01_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_01"
+            }
+          },
+          {
+            "add": "pvp_leaderboard_02_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_02"
+            },
+            "remove": "pvp_leaderboard_01_frame"
+          },
+          {
+            "add": "pvp_leaderboard_03_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_03"
+            },
+            "remove": "pvp_leaderboard_02_frame"
+          },
+          {
+            "add": "pvp_leaderboard_04_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_04"
+            },
+            "remove": "pvp_leaderboard_03_frame"
+          },
+          {
+            "add": "pvp_leaderboard_05_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_05"
+            },
+            "remove": "pvp_leaderboard_04_frame"
+          },
+          {
+            "add": "pvp_leaderboard_06_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_06"
+            },
+            "remove": "pvp_leaderboard_05_frame"
+          },
+          {
+            "add": "pvp_leaderboard_07_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_07"
+            },
+            "remove": "pvp_leaderboard_06_frame"
+          },
+          {
+            "add": "pvp_leaderboard_08_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_08"
+            },
+            "remove": "pvp_leaderboard_07_frame"
+          },
+          {
+            "add": "pvp_leaderboard_09_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_09"
+            },
+            "remove": "pvp_leaderboard_08_frame"
+          },
+          {
+            "add": "pvp_leaderboard_10_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_10"
+            },
+            "remove": "pvp_leaderboard_09_frame"
+          },
+          {
+            "add": "pvp_leaderboard_11_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_11"
+            },
+            "remove": "pvp_leaderboard_10_frame"
+          },
+          {
+            "add": "pvp_leaderboard_12_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_12"
+            },
+            "remove": "pvp_leaderboard_11_frame"
+          },
+          {
+            "add": "pvp_leaderboard_13_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_13"
+            },
+            "remove": "pvp_leaderboard_12_frame"
+          },
+          {
+            "add": "pvp_leaderboard_14_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_14"
+            },
+            "remove": "pvp_leaderboard_13_frame"
+          },
+          {
+            "add": "pvp_leaderboard_15_frame",
+            "objective": {
+              "conditions": [],
+              "event": "Game_TournamentCompleted",
+              "eventListenerData": "Game_TournamentCompleted_SurferLeagueChampion",
+              "extendedResetEvents": [],
+              "goal": 1,
+              "id": "leveled_items_subway_pvp_frame_15"
+            },
+            "remove": "pvp_leaderboard_14_frame"
+          }
+        ]
+      }
+    }
+  },
+  "playerNameRestrictions": {
+    "allowChangeForCoppa": true,
+    "maxCharacters": 15,
+    "minCharacters": 2,
+    "refreshPeriodSeconds": 604800,
+    "regexPattern": "^[a-zA-Z]+$"
+  },
+  "profileBackgrounds": {
+    "default_background": {
+      "id": "default_background",
+      "priority": 1000
+    }
+  },
+  "profileFrames": {
+    "birthday2024_frame": {
+      "id": "birthday2024_frame",
+      "priority": 999
+    },
+    "brawlstars_frame": {
+      "id": "brawlstars_frame",
+      "priority": 990
+    },
+    "brawlstars_gems_frame": {
+      "id": "brawlstars_gems_frame",
+      "priority": 989
+    },
+    "candycane_frame": {
+      "id": "candycane_frame",
+      "priority": 985
+    },
+    "club_frame": {
+      "id": "club_frame",
+      "priority": 994
+    },
+    "default_frame": {
+      "id": "default_frame",
+      "priority": 1000
+    },
+    "diademuertos_frame": {
+      "id": "diademuertos_frame",
+      "priority": 987
+    },
+    "earthday_frame": {
+      "id": "earthday_frame",
+      "priority": 977
+    },
+    "easter_frame": {
+      "id": "easter_frame",
+      "priority": 980
+    },
+    "gingerbread_frame": {
+      "id": "gingerbread_frame",
+      "priority": 986
+    },
+    "glorx_frame": {
+      "id": "glorx_frame",
+      "priority": 984
+    },
+    "hollywood_frame": {
+      "id": "hollywood_frame",
+      "priority": 998
+    },
+    "koi_frame": {
+      "id": "koi_frame",
+      "priority": 978
+    },
+    "lava_frame": {
+      "id": "lava_frame",
+      "priority": 996
+    },
+    "movieslate_frame": {
+      "id": "movieslate_frame",
+      "priority": 983
+    },
+    "oxford_green_frame": {
+      "id": "oxford_green_frame",
+      "priority": 992
+    },
+    "oxford_red_frame": {
+      "id": "oxford_red_frame",
+      "priority": 991
+    },
+    "plant_frame": {
+      "id": "plant_frame",
+      "priority": 995
+    },
+    "pride_frame": {
+      "id": "pride_frame",
+      "priority": 993
+    },
+    "pumpkin_frame": {
+      "id": "pumpkin_frame",
+      "priority": 988
+    },
+    "pvp_leaderboard_01_frame": {
+      "id": "pvp_leaderboard_01_frame",
+      "priority": 979
+    },
+    "pvp_leaderboard_02_frame": {
+      "id": "pvp_leaderboard_02_frame",
+      "priority": 979
+    },
+    "stpatrick_frame": {
+      "id": "stpatrick_frame",
+      "priority": 981
+    },
+    "summer_frame": {
+      "id": "summer_frame",
+      "priority": 997
+    },
+    "winter_frame": {
+      "id": "winter_frame",
+      "priority": 982
+    }
+  },
+  "profilePortraits": {
+    "akira_illustration_portrait": {
+      "id": "akira_illustration_portrait",
+      "priority": 962
+    },
+    "alexandre_stanoutfit_portrait": {
+      "id": "alexandre_stanoutfit_portrait",
+      "priority": 985
+    },
+    "amongusred_illustration_portrait": {
+      "id": "amongusred_illustration_portrait",
+      "priority": 926
+    },
+    "audrey_illustration_portrait": {
+      "id": "audrey_illustration_portrait",
+      "priority": 977
+    },
+    "ballerinatricky_portrait": {
+      "id": "ballerinatricky_portrait",
+      "priority": 989
+    },
+    "berta_illustration_portrait": {
+      "id": "berta_illustration_portrait",
+      "priority": 945
+    },
+    "bobtheblob_graffiti_portrait": {
+      "id": "bobtheblob_graffiti_portrait",
+      "priority": 973
+    },
+    "bobtheblob_illustration_portrait": {
+      "id": "bobtheblob_illustration_portrait",
+      "priority": 971
+    },
+    "bobtheblob_jingleoutfit_illustration_portrait": {
+      "id": "bobtheblob_jingleoutfit_illustration_portrait",
+      "priority": 972
+    },
+    "bobtheblob_slimeoutfit_illustration_portrait": {
+      "id": "bobtheblob_slimeoutfit_illustration_portrait",
+      "priority": 970
+    },
+    "boombot_illustration_portrait": {
+      "id": "boombot_illustration_portrait",
+      "priority": 913
+    },
+    "boombot_portrait": {
+      "id": "boombot_portrait",
+      "priority": 990
+    },
+    "boombox_graffiti_portrait": {
+      "id": "boombox_graffiti_portrait",
+      "priority": 980
+    },
+    "bsbeardedguy_illustration_portrait": {
+      "id": "bsbeardedguy_illustration_portrait",
+      "priority": 931
+    },
+    "bselegantgirl_illustration_portrait": {
+      "id": "bselegantgirl_illustration_portrait",
+      "priority": 933
+    },
+    "bsfastgirl_illustration_portrait": {
+      "id": "bsfastgirl_illustration_portrait",
+      "priority": 929
+    },
+    "bspointyguy_illustration_portrait": {
+      "id": "bspointyguy_illustration_portrait",
+      "priority": 934
+    },
+    "bsskullguy_illustration_portrait": {
+      "id": "bsskullguy_illustration_portrait",
+      "priority": 930
+    },
+    "bstoughguy_illustration_portrait": {
+      "id": "bstoughguy_illustration_portrait",
+      "priority": 932
+    },
+    "bunnybetty_graffiti_portrait": {
+      "id": "bunnybetty_graffiti_portrait",
+      "priority": 909
+    },
+    "burger_graffiti_portrait": {
+      "id": "burger_graffiti_portrait",
+      "priority": 978
+    },
+    "chickenjake_illustration_portrait": {
+      "id": "chickenjake_illustration_portrait",
+      "priority": 953
+    },
+    "dino_portrait": {
+      "id": "dino_portrait",
+      "priority": 992
+    },
+    "dog_graffiti_portrait": {
+      "id": "dog_graffiti_portrait",
+      "priority": 950
+    },
+    "eightball_jake_illustration_portrait": {
+      "id": "eightball_jake_illustration_portrait",
+      "priority": 935
+    },
+    "ella_portrait": {
+      "id": "ella_portrait",
+      "priority": 993
+    },
+    "fantasma_graffiti_portrait": {
+      "id": "fantasma_graffiti_portrait",
+      "priority": 958
+    },
+    "frank_illustration_portrait": {
+      "id": "frank_illustration_portrait",
+      "priority": 969
+    },
+    "fresh_graffiti_portrait": {
+      "id": "fresh_graffiti_portrait",
+      "priority": 946
+    },
+    "fresh_illustration_portrait": {
+      "id": "fresh_illustration_portrait",
+      "priority": 966
+    },
+    "fresh_portrait": {
+      "id": "fresh_portrait",
+      "priority": 998
+    },
+    "freshsnow_graffiti_portrait": {
+      "id": "freshsnow_graffiti_portrait",
+      "priority": 920
+    },
+    "george_illustration_portrait": {
+      "id": "george_illustration_portrait",
+      "priority": 939
+    },
+    "ginger_illustration_portrait": {
+      "id": "ginger_illustration_portrait",
+      "priority": 968
+    },
+    "grandjuke_illustration_portrait": {
+      "id": "grandjuke_illustration_portrait",
+      "priority": 963
+    },
+    "guard_graffiti_portrait": {
+      "id": "guard_graffiti_portrait",
+      "priority": 941
+    },
+    "guard_illustration_portrait": {
+      "id": "guard_illustration_portrait",
+      "priority": 943
+    },
+    "guard_pink_graffiti_portrait": {
+      "id": "guard_pink_graffiti_portrait",
+      "priority": 959
+    },
+    "hammybee_portrait": {
+      "id": "hammybee_portrait",
+      "priority": 987
+    },
+    "helene_illustration_portrait": {
+      "id": "helene_illustration_portrait",
+      "priority": 981
+    },
+    "holly_graffiti_portrait": {
+      "id": "holly_graffiti_portrait",
+      "priority": 919
+    },
+    "jake_illustration_portrait": {
+      "id": "jake_illustration_portrait",
+      "priority": 967
+    },
+    "jake_portrait": {
+      "id": "jake_portrait",
+      "priority": 1000
+    },
+    "joowon_illustration_portrait": {
+      "id": "joowon_illustration_portrait",
+      "priority": 925
+    },
+    "kedi_illustration_portrait": {
+      "id": "kedi_illustration_portrait",
+      "priority": 976
+    },
+    "king_portrait": {
+      "id": "king_portrait",
+      "priority": 994
+    },
+    "lily_default_portrait": {
+      "id": "lily_default_portrait",
+      "priority": 986
+    },
+    "lorcan_graffiti_portrait": {
+      "id": "lorcan_graffiti_portrait",
+      "priority": 915
+    },
+    "lucy_illustration_portrait": {
+      "id": "lucy_illustration_portrait",
+      "priority": 910
+    },
+    "mateosantocampooutfit_illustration_portrait": {
+      "id": "mateosantocampooutfit_illustration_portrait",
+      "priority": 928
+    },
+    "meggan_graffiti_portrait": {
+      "id": "meggan_graffiti_portrait",
+      "priority": 952
+    },
+    "mia_graffiti_portrait": {
+      "id": "mia_graffiti_portrait",
+      "priority": 916
+    },
+    "missmaia_illustration_portrait": {
+      "id": "missmaia_illustration_portrait",
+      "priority": 944
+    },
+    "mrgobbles_illustration_portrait": {
+      "id": "mrgobbles_illustration_portrait",
+      "priority": 923
+    },
+    "ninja_graffiti_portrait": {
+      "id": "ninja_graffiti_portrait",
+      "priority": 908
+    },
+    "noodlebox_graffiti_portrait": {
+      "id": "noodlebox_graffiti_portrait",
+      "priority": 961
+    },
+    "onihime_chillbilloutfit_illustration_portrait": {
+      "id": "onihime_chillbilloutfit_illustration_portrait",
+      "priority": 918
+    },
+    "onihime_illustration_portrait": {
+      "id": "onihime_illustration_portrait",
+      "priority": 949
+    },
+    "pins_illustration_portrait": {
+      "id": "pins_illustration_portrait",
+      "priority": 979
+    },
+    "pixeljake_portrait": {
+      "id": "pixeljake_portrait",
+      "priority": 988
+    },
+    "rebecaroar_illustration_portrait": {
+      "id": "rebecaroar_illustration_portrait",
+      "priority": 957
+    },
+    "rochellerebelle_graffiti_portrait": {
+      "id": "rochellerebelle_graffiti_portrait",
+      "priority": 942
+    },
+    "rocky_illustration_portrait": {
+      "id": "rocky_illustration_portrait",
+      "priority": 954
+    },
+    "ruhi_illustration_portrait": {
+      "id": "ruhi_illustration_portrait",
+      "priority": 975
+    },
+    "sandwich_graffiti_portrait": {
+      "id": "sandwich_graffiti_portrait",
+      "priority": 922
+    },
+    "seansnow_illustration_portrait": {
+      "id": "seansnow_illustration_portrait",
+      "priority": 917
+    },
+    "sindri_illustration_portrait": {
+      "id": "sindri_illustration_portrait",
+      "priority": 965
+    },
+    "siwoo_graffiti_portrait": {
+      "id": "siwoo_graffiti_portrait",
+      "priority": 924
+    },
+    "skateboard_graffiti_portrait": {
+      "id": "skateboard_graffiti_portrait",
+      "priority": 937
+    },
+    "snowy_illustration_portrait": {
+      "id": "snowy_illustration_portrait",
+      "priority": 964
+    },
+    "soul_illustration_portrait": {
+      "id": "soul_illustration_portrait",
+      "priority": 951
+    },
+    "spike_portrait": {
+      "id": "spike_portrait",
+      "priority": 997
+    },
+    "spraycan_graffiti_portrait": {
+      "id": "spraycan_graffiti_portrait",
+      "priority": 982
+    },
+    "stella_graffiti_portrait": {
+      "id": "stella_graffiti_portrait",
+      "priority": 955
+    },
+    "stevie_hitchhikeroutfit_illustration_portrait": {
+      "id": "stevie_hitchhikeroutfit_illustration_portrait",
+      "priority": 947
+    },
+    "sunny_graffiti_portrait": {
+      "id": "sunny_graffiti_portrait",
+      "priority": 936
+    },
+    "tagbot_portrait": {
+      "id": "tagbot_portrait",
+      "priority": 995
+    },
+    "tara_graffiti_portrait": {
+      "id": "tara_graffiti_portrait",
+      "priority": 938
+    },
+    "thursday_graffiti_portrait": {
+      "id": "thursday_graffiti_portrait",
+      "priority": 927
+    },
+    "thursday_lilimpoutfit_illustration_portrait": {
+      "id": "thursday_lilimpoutfit_illustration_portrait",
+      "priority": 974
+    },
+    "tricky_graffiti_portrait": {
+      "id": "tricky_graffiti_portrait",
+      "priority": 948
+    },
+    "tricky_illustration_portrait": {
+      "id": "tricky_illustration_portrait",
+      "priority": 914
+    },
+    "tricky_portrait": {
+      "id": "tricky_portrait",
+      "priority": 999
+    },
+    "tsukichan_illustration_portrait": {
+      "id": "tsukichan_illustration_portrait",
+      "priority": 907
+    },
+    "valentina_illustration_portrait": {
+      "id": "valentina_illustration_portrait",
+      "priority": 960
+    },
+    "ventura_default_portrait": {
+      "id": "ventura_default_portrait",
+      "priority": 984
+    },
+    "vittorio_illustration_portrait": {
+      "id": "vittorio_illustration_portrait",
+      "priority": 912
+    },
+    "vivienne_hollywoodglamoutfit_portrait": {
+      "id": "vivienne_hollywoodglamoutfit_portrait",
+      "priority": 983
+    },
+    "whiterabbit_illustration_portrait": {
+      "id": "whiterabbit_illustration_portrait",
+      "priority": 940
+    },
+    "yutani_graffiti_portrait": {
+      "id": "yutani_graffiti_portrait",
+      "priority": 956
+    },
+    "yutani_illustration_portrait": {
+      "id": "yutani_illustration_portrait",
+      "priority": 911
+    },
+    "yutani_portrait": {
+      "id": "yutani_portrait",
+      "priority": 996
+    },
+    "yutanigiftgrifter_illustration_portrait": {
+      "id": "yutanigiftgrifter_illustration_portrait",
+      "priority": 921
+    }
+  }
+}

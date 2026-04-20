@@ -1,0 +1,92 @@
+{
+  "frames": {
+    "birthday2024_frame": {
+      "id": "birthday2024_frame",
+      "name": "Birthday2024 Frame"
+    },
+    "brawlstars_frame": {
+      "id": "brawlstars_frame",
+      "name": "Brawlstars Frame"
+    },
+    "brawlstars_gems_frame": {
+      "id": "brawlstars_gems_frame",
+      "name": "Brawlstars Gems Frame"
+    },
+    "candycane_frame": {
+      "id": "candycane_frame",
+      "name": "Candycane Frame"
+    },
+    "club_frame": {
+      "id": "club_frame",
+      "name": "Club Frame"
+    },
+    "default_frame": {
+      "id": "default_frame",
+      "name": "Default Frame"
+    },
+    "diademuertos_frame": {
+      "id": "diademuertos_frame",
+      "name": "Diademuertos Frame"
+    },
+    "easter_frame": {
+      "id": "easter_frame",
+      "name": "Easter Frame"
+    },
+    "gingerbread_frame": {
+      "id": "gingerbread_frame",
+      "name": "Gingerbread Frame"
+    },
+    "glorx_frame": {
+      "id": "glorx_frame",
+      "name": "Glorx Frame"
+    },
+    "hollywood_frame": {
+      "id": "hollywood_frame",
+      "name": "Hollywood Frame"
+    },
+    "lava_frame": {
+      "id": "lava_frame",
+      "name": "Lava Frame"
+    },
+    "movieslate_frame": {
+      "id": "movieslate_frame",
+      "name": "Movieslate Frame"
+    },
+    "oxford_green_frame": {
+      "id": "oxford_green_frame",
+      "name": "Oxford Green Frame"
+    },
+    "oxford_red_frame": {
+      "id": "oxford_red_frame",
+      "name": "Oxford Red Frame"
+    },
+    "plant_frame": {
+      "id": "plant_frame",
+      "name": "Plant Frame"
+    },
+    "pride_frame": {
+      "id": "pride_frame",
+      "name": "Pride Frame"
+    },
+    "pumpkin_frame": {
+      "id": "pumpkin_frame",
+      "name": "Pumpkin Frame"
+    },
+    "pvp_leaderboard_01_frame": {
+      "id": "pvp_leaderboard_01_frame",
+      "name": "Pvp Leaderboard 01 Frame"
+    },
+    "stpatrick_frame": {
+      "id": "stpatrick_frame",
+      "name": "Stpatrick Frame"
+    },
+    "summer_frame": {
+      "id": "summer_frame",
+      "name": "Summer Frame"
+    },
+    "winter_frame": {
+      "id": "winter_frame",
+      "name": "Winter Frame"
+    }
+  }
+}
