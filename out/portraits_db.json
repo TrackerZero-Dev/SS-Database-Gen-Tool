@@ -216,6 +216,10 @@
       "id": "mrgobbles_illustration_portrait",
       "name": "Mrgobbles Illustration Portrait"
     },
+    "ninja_graffiti_portrait": {
+      "id": "ninja_graffiti_portrait",
+      "name": "Ninja Graffiti Portrait"
+    },
     "noodlebox_graffiti_portrait": {
       "id": "noodlebox_graffiti_portrait",
       "name": "Noodlebox Graffiti Portrait"
@@ -327,6 +331,10 @@
     "tricky_portrait": {
       "id": "tricky_portrait",
       "name": "Tricky Portrait"
+    },
+    "tsukichan_illustration_portrait": {
+      "id": "tsukichan_illustration_portrait",
+      "name": "Tsukichan Illustration Portrait"
     },
     "valentina_illustration_portrait": {
       "id": "valentina_illustration_portrait",

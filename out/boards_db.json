@@ -596,6 +596,16 @@
         }
       }
     },
+    "cathleticRide": {
+      "id": "cathleticRide",
+      "name": "Cathletic Ride",
+      "upgrades": {
+        "default": {
+          "id": "default",
+          "name": "Default"
+        }
+      }
+    },
     "chameleon": {
       "id": "chameleon",
       "name": "Chameleon",
@@ -1136,6 +1146,24 @@
         }
       }
     },
+    "fastFurward": {
+      "id": "fastFurward",
+      "name": "Fast Furward",
+      "upgrades": {
+        "default": {
+          "id": "default",
+          "name": "Default"
+        },
+        "superJump": {
+          "id": "superJump",
+          "name": "Super Jump"
+        },
+        "highSpeed": {
+          "id": "highSpeed",
+          "name": "High Speed"
+        }
+      }
+    },
     "fastandfestive": {
       "id": "fastandfestive",
       "name": "Fastandfestive",
@@ -1327,6 +1355,20 @@
         "default": {
           "id": "default",
           "name": "Default"
+        }
+      }
+    },
+    "foxTrotter": {
+      "id": "foxTrotter",
+      "name": "Fox Trotter",
+      "upgrades": {
+        "default": {
+          "id": "default",
+          "name": "Default"
+        },
+        "glider": {
+          "id": "glider",
+          "name": "Glider"
         }
       }
     },

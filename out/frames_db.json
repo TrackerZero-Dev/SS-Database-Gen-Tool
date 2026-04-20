@@ -28,6 +28,10 @@
       "id": "diademuertos_frame",
       "name": "Diademuertos Frame"
     },
+    "earthday_frame": {
+      "id": "earthday_frame",
+      "name": "Earthday Frame"
+    },
     "easter_frame": {
       "id": "easter_frame",
       "name": "Easter Frame"
@@ -43,6 +47,10 @@
     "hollywood_frame": {
       "id": "hollywood_frame",
       "name": "Hollywood Frame"
+    },
+    "koi_frame": {
+      "id": "koi_frame",
+      "name": "Koi Frame"
     },
     "lava_frame": {
       "id": "lava_frame",
@@ -75,6 +83,10 @@
     "pvp_leaderboard_01_frame": {
       "id": "pvp_leaderboard_01_frame",
       "name": "Pvp Leaderboard 01 Frame"
+    },
+    "pvp_leaderboard_02_frame": {
+      "id": "pvp_leaderboard_02_frame",
+      "name": "Pvp Leaderboard 02 Frame"
     },
     "stpatrick_frame": {
       "id": "stpatrick_frame",

@@ -1774,6 +1774,20 @@
         }
       }
     },
+    "kaito": {
+      "id": "kaito",
+      "name": "Kaito",
+      "outfits": {
+        "default": {
+          "id": "default",
+          "name": "Default"
+        },
+        "hayaKitsuneOutfit": {
+          "id": "hayaKitsuneOutfit",
+          "name": "Haya Kitsune Outfit"
+        }
+      }
+    },
     "kaleo": {
       "id": "kaleo",
       "name": "Kaleo",
@@ -3195,6 +3209,10 @@
         "default": {
           "id": "default",
           "name": "Default"
+        },
+        "skyAttackOutfit": {
+          "id": "skyAttackOutfit",
+          "name": "Sky Attack Outfit"
         }
       }
     },
@@ -3647,6 +3665,16 @@
         "noblenewbieOutfit": {
           "id": "noblenewbieOutfit",
           "name": "Noblenewbie Outfit"
+        }
+      }
+    },
+    "tsukiChan": {
+      "id": "tsukiChan",
+      "name": "Tsuki Chan",
+      "outfits": {
+        "default": {
+          "id": "default",
+          "name": "Default"
         }
       }
     },
