@@ -20,6 +20,66 @@
       "id": "club_frame",
       "name": "Club Frame"
     },
+    "collection_revamp_01_frame": {
+      "id": "collection_revamp_01_frame",
+      "name": "Collection Revamp 01 Frame"
+    },
+    "collection_revamp_02_frame": {
+      "id": "collection_revamp_02_frame",
+      "name": "Collection Revamp 02 Frame"
+    },
+    "collection_revamp_03_frame": {
+      "id": "collection_revamp_03_frame",
+      "name": "Collection Revamp 03 Frame"
+    },
+    "collection_revamp_04_frame": {
+      "id": "collection_revamp_04_frame",
+      "name": "Collection Revamp 04 Frame"
+    },
+    "collection_revamp_05_frame": {
+      "id": "collection_revamp_05_frame",
+      "name": "Collection Revamp 05 Frame"
+    },
+    "collection_revamp_06_frame": {
+      "id": "collection_revamp_06_frame",
+      "name": "Collection Revamp 06 Frame"
+    },
+    "collection_revamp_07_frame": {
+      "id": "collection_revamp_07_frame",
+      "name": "Collection Revamp 07 Frame"
+    },
+    "collection_revamp_08_frame": {
+      "id": "collection_revamp_08_frame",
+      "name": "Collection Revamp 08 Frame"
+    },
+    "collection_revamp_09_frame": {
+      "id": "collection_revamp_09_frame",
+      "name": "Collection Revamp 09 Frame"
+    },
+    "collection_revamp_10_frame": {
+      "id": "collection_revamp_10_frame",
+      "name": "Collection Revamp 10 Frame"
+    },
+    "collection_revamp_11_frame": {
+      "id": "collection_revamp_11_frame",
+      "name": "Collection Revamp 11 Frame"
+    },
+    "collection_revamp_12_frame": {
+      "id": "collection_revamp_12_frame",
+      "name": "Collection Revamp 12 Frame"
+    },
+    "collection_revamp_13_frame": {
+      "id": "collection_revamp_13_frame",
+      "name": "Collection Revamp 13 Frame"
+    },
+    "collection_revamp_14_frame": {
+      "id": "collection_revamp_14_frame",
+      "name": "Collection Revamp 14 Frame"
+    },
+    "collection_revamp_15_frame": {
+      "id": "collection_revamp_15_frame",
+      "name": "Collection Revamp 15 Frame"
+    },
     "default_frame": {
       "id": "default_frame",
       "name": "Default Frame"

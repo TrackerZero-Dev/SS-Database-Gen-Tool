@@ -374,6 +374,174 @@
             "remove": "pvp_leaderboard_14_frame"
           }
         ]
+      },
+      "collection_revamp_frame": {
+        "tiers": [
+          {
+            "add": "collection_revamp_01_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_01"
+            }
+          },
+          {
+            "add": "collection_revamp_02_frame",
+            "remove": "collection_revamp_01_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_02"
+            }
+          },
+          {
+            "add": "collection_revamp_03_frame",
+            "remove": "collection_revamp_02_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_03"
+            }
+          },
+          {
+            "add": "collection_revamp_04_frame",
+            "remove": "collection_revamp_03_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_04"
+            }
+          },
+          {
+            "add": "collection_revamp_05_frame",
+            "remove": "collection_revamp_04_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_05"
+            }
+          },
+          {
+            "add": "collection_revamp_06_frame",
+            "remove": "collection_revamp_05_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_06"
+            }
+          },
+          {
+            "add": "collection_revamp_07_frame",
+            "remove": "collection_revamp_06_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_07"
+            }
+          },
+          {
+            "add": "collection_revamp_08_frame",
+            "remove": "collection_revamp_07_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_08"
+            }
+          },
+          {
+            "add": "collection_revamp_09_frame",
+            "remove": "collection_revamp_08_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_09"
+            }
+          },
+          {
+            "add": "collection_revamp_10_frame",
+            "remove": "collection_revamp_09_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_10"
+            }
+          },
+          {
+            "add": "collection_revamp_11_frame",
+            "remove": "collection_revamp_10_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_11"
+            }
+          },
+          {
+            "add": "collection_revamp_12_frame",
+            "remove": "collection_revamp_11_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_12"
+            }
+          },
+          {
+            "add": "collection_revamp_13_frame",
+            "remove": "collection_revamp_12_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_13"
+            }
+          },
+          {
+            "add": "collection_revamp_14_frame",
+            "remove": "collection_revamp_13_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_14"
+            }
+          },
+          {
+            "add": "collection_revamp_15_frame",
+            "remove": "collection_revamp_14_frame",
+            "objective": {
+              "event": "Game_CollectionRevampRewardClaimed",
+              "eventListenerData": "Game_CollectionRevampRewardClaimed_ProfileFrame",
+              "eventListenerParameter": "collection_revamp_frame",
+              "goal": 1,
+              "id": "leveled_items_collection_revamp_frame_15"
+            }
+          }
+        ]
       }
     }
   },
@@ -482,6 +650,66 @@
     "stpatrick_frame": {
       "id": "stpatrick_frame",
       "priority": 981
+    },
+    "collection_revamp_01_frame": {
+      "id": "collection_revamp_01_frame",
+      "priority": 986
+    },
+    "collection_revamp_02_frame": {
+      "id": "collection_revamp_02_frame",
+      "priority": 985
+    },
+    "collection_revamp_03_frame": {
+      "id": "collection_revamp_03_frame",
+      "priority": 984
+    },
+    "collection_revamp_04_frame": {
+      "id": "collection_revamp_04_frame",
+      "priority": 983
+    },
+    "collection_revamp_05_frame": {
+      "id": "collection_revamp_05_frame",
+      "priority": 982
+    },
+    "collection_revamp_06_frame": {
+      "id": "collection_revamp_06_frame",
+      "priority": 981
+    },
+    "collection_revamp_07_frame": {
+      "id": "collection_revamp_07_frame",
+      "priority": 980
+    },
+    "collection_revamp_08_frame": {
+      "id": "collection_revamp_08_frame",
+      "priority": 979
+    },
+    "collection_revamp_09_frame": {
+      "id": "collection_revamp_09_frame",
+      "priority": 978
+    },
+    "collection_revamp_10_frame": {
+      "id": "collection_revamp_10_frame",
+      "priority": 977
+    },
+    "collection_revamp_11_frame": {
+      "id": "collection_revamp_11_frame",
+      "priority": 976
+    },
+    "collection_revamp_12_frame": {
+      "id": "collection_revamp_12_frame",
+      "priority": 975
+    },
+    "collection_revamp_13_frame": {
+      "id": "collection_revamp_13_frame",
+      "priority": 974
+    },
+    "collection_revamp_14_frame": {
+      "id": "collection_revamp_14_frame",
+      "priority": 973
+    },
+    "collection_revamp_15_frame": {
+      "id": "collection_revamp_15_frame",
+      "priority": 972
     },
     "summer_frame": {
       "id": "summer_frame",
