@@ -1,28 +1,28 @@
 {
   "databases": {
     "characters_db": {
-      "version": "3.61.1",
-      "updatedAt": "2026-04-29T12:32:50.409Z"
+      "version": "3.62.1",
+      "updatedAt": "2026-04-30T14:09:19.646Z"
     },
     "boards_db": {
-      "version": "3.61.1",
-      "updatedAt": "2026-04-29T12:32:50.409Z"
+      "version": "3.62.1",
+      "updatedAt": "2026-04-30T14:09:19.646Z"
     },
     "frames_db": {
-      "version": "3.61.1",
-      "updatedAt": "2026-04-29T12:32:50.409Z"
+      "version": "3.62.1",
+      "updatedAt": "2026-04-30T14:09:19.646Z"
     },
     "portraits_db": {
-      "version": "3.61.1",
-      "updatedAt": "2026-04-29T12:32:50.409Z"
+      "version": "3.62.1",
+      "updatedAt": "2026-04-30T14:09:19.646Z"
     },
     "achievements_db": {
-      "version": "3.61.1",
-      "updatedAt": "2026-04-29T12:32:50.409Z"
+      "version": "3.62.1",
+      "updatedAt": "2026-04-30T14:09:19.646Z"
     },
     "cities_db": {
-      "version": "3.61.1",
-      "updatedAt": "2026-04-29T12:32:50.409Z"
+      "version": "3.62.1",
+      "updatedAt": "2026-04-30T14:09:19.646Z"
     }
   }
 }
