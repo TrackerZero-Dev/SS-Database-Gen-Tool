@@ -4,8 +4,8 @@ A zero-dependency, standalone Node.js CLI tool for extracting, decrypting, and f
 
 ## 🔗 The Ecosystem
 
-- **Database API:** [https://subway-city-database.trackerzero.workers.dev/](https://subway-city-database.trackerzero.workers.dev/)
-- **Save Editor:** [https://subway-city-save-editor.vercel.app/](https://subway-city-save-editor.vercel.app/)
+- **Database API:** [https://subway-surfers-database.trackerzero.workers.dev/](https://subway-city-database.trackerzero.workers.dev/)
+- **Save Editor:** [https://subway-surfers-save-editor.vercel.app/](https://subway-city-save-editor.vercel.app/)
 
 ---
 
